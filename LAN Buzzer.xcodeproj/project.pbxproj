@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */; };
+		3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */; };
+		3FBEE3B5218B2F5F006A5EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */; };
+		3FBEE3B7218B2F61006A5EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */; };
+		3FBEE3BA218B2F61006A5EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */; };
+		3FBEE3C5218B2F61006A5EE0 /* LAN_BuzzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3C4218B2F61006A5EE0 /* LAN_BuzzerTests.swift */; };
+		3FBEE3D0218B2F61006A5EE0 /* LAN_BuzzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FBEE3C1218B2F61006A5EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBEE3A4218B2F5F006A5EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBEE3AB218B2F5F006A5EE0;
+			remoteInfo = "LAN Buzzer";
+		};
+		3FBEE3CC218B2F61006A5EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FBEE3A4218B2F5F006A5EE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FBEE3AB218B2F5F006A5EE0;
+			remoteInfo = "LAN Buzzer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FBEE3AC218B2F5F006A5EE0 /* LAN Buzzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LAN Buzzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FBEE3B4218B2F5F006A5EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FBEE3B9218B2F61006A5EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FBEE3BB218B2F61006A5EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBEE3C0218B2F61006A5EE0 /* LAN BuzzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LAN BuzzerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBEE3C4218B2F61006A5EE0 /* LAN_BuzzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAN_BuzzerTests.swift; sourceTree = "<group>"; };
+		3FBEE3C6218B2F61006A5EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FBEE3CB218B2F61006A5EE0 /* LAN BuzzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LAN BuzzerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAN_BuzzerUITests.swift; sourceTree = "<group>"; };
+		3FBEE3D1218B2F61006A5EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FBEE3A9218B2F5F006A5EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBEE3BD218B2F61006A5EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBEE3C8218B2F61006A5EE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FBEE3A3218B2F5F006A5EE0 = {
+			isa = PBXGroup;
+			children = (
+				3FBEE3AE218B2F5F006A5EE0 /* LAN Buzzer */,
+				3FBEE3C3218B2F61006A5EE0 /* LAN BuzzerTests */,
+				3FBEE3CE218B2F61006A5EE0 /* LAN BuzzerUITests */,
+				3FBEE3AD218B2F5F006A5EE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FBEE3AD218B2F5F006A5EE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEE3AC218B2F5F006A5EE0 /* LAN Buzzer.app */,
+				3FBEE3C0218B2F61006A5EE0 /* LAN BuzzerTests.xctest */,
+				3FBEE3CB218B2F61006A5EE0 /* LAN BuzzerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FBEE3AE218B2F5F006A5EE0 /* LAN Buzzer */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */,
+				3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */,
+				3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */,
+				3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */,
+				3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */,
+				3FBEE3BB218B2F61006A5EE0 /* Info.plist */,
+			);
+			path = "LAN Buzzer";
+			sourceTree = "<group>";
+		};
+		3FBEE3C3218B2F61006A5EE0 /* LAN BuzzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEE3C4218B2F61006A5EE0 /* LAN_BuzzerTests.swift */,
+				3FBEE3C6218B2F61006A5EE0 /* Info.plist */,
+			);
+			path = "LAN BuzzerTests";
+			sourceTree = "<group>";
+		};
+		3FBEE3CE218B2F61006A5EE0 /* LAN BuzzerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */,
+				3FBEE3D1218B2F61006A5EE0 /* Info.plist */,
+			);
+			path = "LAN BuzzerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FBEE3AB218B2F5F006A5EE0 /* LAN Buzzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBEE3D4218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN Buzzer" */;
+			buildPhases = (
+				3FBEE3A8218B2F5F006A5EE0 /* Sources */,
+				3FBEE3A9218B2F5F006A5EE0 /* Frameworks */,
+				3FBEE3AA218B2F5F006A5EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LAN Buzzer";
+			productName = "LAN Buzzer";
+			productReference = 3FBEE3AC218B2F5F006A5EE0 /* LAN Buzzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FBEE3BF218B2F61006A5EE0 /* LAN BuzzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBEE3D7218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN BuzzerTests" */;
+			buildPhases = (
+				3FBEE3BC218B2F61006A5EE0 /* Sources */,
+				3FBEE3BD218B2F61006A5EE0 /* Frameworks */,
+				3FBEE3BE218B2F61006A5EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBEE3C2218B2F61006A5EE0 /* PBXTargetDependency */,
+			);
+			name = "LAN BuzzerTests";
+			productName = "LAN BuzzerTests";
+			productReference = 3FBEE3C0218B2F61006A5EE0 /* LAN BuzzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FBEE3CA218B2F61006A5EE0 /* LAN BuzzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FBEE3DA218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN BuzzerUITests" */;
+			buildPhases = (
+				3FBEE3C7218B2F61006A5EE0 /* Sources */,
+				3FBEE3C8218B2F61006A5EE0 /* Frameworks */,
+				3FBEE3C9218B2F61006A5EE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FBEE3CD218B2F61006A5EE0 /* PBXTargetDependency */,
+			);
+			name = "LAN BuzzerUITests";
+			productName = "LAN BuzzerUITests";
+			productReference = 3FBEE3CB218B2F61006A5EE0 /* LAN BuzzerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FBEE3A4218B2F5F006A5EE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					3FBEE3AB218B2F5F006A5EE0 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					3FBEE3BF218B2F61006A5EE0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FBEE3AB218B2F5F006A5EE0;
+					};
+					3FBEE3CA218B2F61006A5EE0 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 3FBEE3AB218B2F5F006A5EE0;
+					};
+				};
+			};
+			buildConfigurationList = 3FBEE3A7218B2F5F006A5EE0 /* Build configuration list for PBXProject "LAN Buzzer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FBEE3A3218B2F5F006A5EE0;
+			productRefGroup = 3FBEE3AD218B2F5F006A5EE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FBEE3AB218B2F5F006A5EE0 /* LAN Buzzer */,
+				3FBEE3BF218B2F61006A5EE0 /* LAN BuzzerTests */,
+				3FBEE3CA218B2F61006A5EE0 /* LAN BuzzerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FBEE3AA218B2F5F006A5EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBEE3BA218B2F61006A5EE0 /* LaunchScreen.storyboard in Resources */,
+				3FBEE3B7218B2F61006A5EE0 /* Assets.xcassets in Resources */,
+				3FBEE3B5218B2F5F006A5EE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBEE3BE218B2F61006A5EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBEE3C9218B2F61006A5EE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FBEE3A8218B2F5F006A5EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
+				3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBEE3BC218B2F61006A5EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBEE3C5218B2F61006A5EE0 /* LAN_BuzzerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBEE3C7218B2F61006A5EE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBEE3D0218B2F61006A5EE0 /* LAN_BuzzerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FBEE3C2218B2F61006A5EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBEE3AB218B2F5F006A5EE0 /* LAN Buzzer */;
+			targetProxy = 3FBEE3C1218B2F61006A5EE0 /* PBXContainerItemProxy */;
+		};
+		3FBEE3CD218B2F61006A5EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FBEE3AB218B2F5F006A5EE0 /* LAN Buzzer */;
+			targetProxy = 3FBEE3CC218B2F61006A5EE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBEE3B4218B2F5F006A5EE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FBEE3B9218B2F61006A5EE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FBEE3D2218B2F61006A5EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FBEE3D3218B2F61006A5EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FBEE3D5218B2F61006A5EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAN Buzzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.benwoodworth.LAN-Buzzer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FBEE3D6218B2F61006A5EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAN Buzzer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.benwoodworth.LAN-Buzzer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FBEE3D8218B2F61006A5EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAN BuzzerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.benwoodworth.LAN-BuzzerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAN Buzzer.app/LAN Buzzer";
+			};
+			name = Debug;
+		};
+		3FBEE3D9218B2F61006A5EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAN BuzzerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.benwoodworth.LAN-BuzzerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LAN Buzzer.app/LAN Buzzer";
+			};
+			name = Release;
+		};
+		3FBEE3DB218B2F61006A5EE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAN BuzzerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.benwoodworth.LAN-BuzzerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LAN Buzzer";
+			};
+			name = Debug;
+		};
+		3FBEE3DC218B2F61006A5EE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "LAN BuzzerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.benwoodworth.LAN-BuzzerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LAN Buzzer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FBEE3A7218B2F5F006A5EE0 /* Build configuration list for PBXProject "LAN Buzzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBEE3D2218B2F61006A5EE0 /* Debug */,
+				3FBEE3D3218B2F61006A5EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBEE3D4218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN Buzzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBEE3D5218B2F61006A5EE0 /* Debug */,
+				3FBEE3D6218B2F61006A5EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBEE3D7218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN BuzzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBEE3D8218B2F61006A5EE0 /* Debug */,
+				3FBEE3D9218B2F61006A5EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBEE3DA218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN BuzzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FBEE3DB218B2F61006A5EE0 /* Debug */,
+				3FBEE3DC218B2F61006A5EE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FBEE3A4218B2F5F006A5EE0 /* Project object */;
+}
