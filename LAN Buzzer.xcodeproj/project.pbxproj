@@ -14,6 +14,12 @@
 		3FBEE3BA218B2F61006A5EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */; };
 		3FBEE3C5218B2F61006A5EE0 /* LAN_BuzzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3C4218B2F61006A5EE0 /* LAN_BuzzerTests.swift */; };
 		3FBEE3D0218B2F61006A5EE0 /* LAN_BuzzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */; };
+		B5DD640921C00B3300DF5046 /* ClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640821C00B3300DF5046 /* ClientStatus.swift */; };
+		B5DD640B21C0131C00DF5046 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640A21C0131C00DF5046 /* Player.swift */; };
+		B5DD640F21C025CA00DF5046 /* ClientState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640E21C025CA00DF5046 /* ClientState.swift */; };
+		B5DD641121C0265700DF5046 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641021C0265700DF5046 /* Buzz.swift */; };
+		B5DD641B21C31C2B00DF5046 /* SessionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641A21C31C2B00DF5046 /* SessionId.swift */; };
+		B5DD641D21C31C3600DF5046 /* PlayerId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641C21C31C3500DF5046 /* PlayerId.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		3FBEE3CB218B2F61006A5EE0 /* LAN BuzzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LAN BuzzerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAN_BuzzerUITests.swift; sourceTree = "<group>"; };
 		3FBEE3D1218B2F61006A5EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DD640821C00B3300DF5046 /* ClientStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientStatus.swift; sourceTree = "<group>"; };
+		B5DD640A21C0131C00DF5046 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B5DD640E21C025CA00DF5046 /* ClientState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientState.swift; sourceTree = "<group>"; };
+		B5DD641021C0265700DF5046 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
+		B5DD641A21C31C2B00DF5046 /* SessionId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionId.swift; sourceTree = "<group>"; };
+		B5DD641C21C31C3500DF5046 /* PlayerId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerId.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */,
+				B5DD640621C0080C00DF5046 /* Models */,
 				3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */,
 				3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */,
 				3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */,
@@ -123,6 +136,27 @@
 				3FBEE3D1218B2F61006A5EE0 /* Info.plist */,
 			);
 			path = "LAN BuzzerUITests";
+			sourceTree = "<group>";
+		};
+		B5DD640621C0080C00DF5046 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5DD640721C00AE500DF5046 /* Client */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5DD640721C00AE500DF5046 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B5DD641021C0265700DF5046 /* Buzz.swift */,
+				B5DD641A21C31C2B00DF5046 /* SessionId.swift */,
+				B5DD641C21C31C3500DF5046 /* PlayerId.swift */,
+				B5DD640A21C0131C00DF5046 /* Player.swift */,
+				B5DD640E21C025CA00DF5046 /* ClientState.swift */,
+				B5DD640821C00B3300DF5046 /* ClientStatus.swift */,
+			);
+			path = Client;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DD640921C00B3300DF5046 /* ClientStatus.swift in Sources */,
+				B5DD641B21C31C2B00DF5046 /* SessionId.swift in Sources */,
 				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
+				B5DD641D21C31C3600DF5046 /* PlayerId.swift in Sources */,
+				B5DD640B21C0131C00DF5046 /* Player.swift in Sources */,
+				B5DD640F21C025CA00DF5046 /* ClientState.swift in Sources */,
+				B5DD641121C0265700DF5046 /* Buzz.swift in Sources */,
 				3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
