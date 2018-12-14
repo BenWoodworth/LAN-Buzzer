@@ -109,13 +109,8 @@
 		3FBEE3AE218B2F5F006A5EE0 /* LAN Buzzer */ = {
 			isa = PBXGroup;
 			children = (
-				3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */,
-				B5DD640621C0080C00DF5046 /* Models */,
-				3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */,
-				3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */,
-				3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */,
-				3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */,
-				3FBEE3BB218B2F61006A5EE0 /* Info.plist */,
+				B5DD642221C33EA500DF5046 /* App */,
+				B5DD642321C33EB000DF5046 /* Site */,
 			);
 			path = "LAN Buzzer";
 			sourceTree = "<group>";
@@ -141,22 +136,75 @@
 		B5DD640621C0080C00DF5046 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				B5DD640721C00AE500DF5046 /* Client */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B5DD640721C00AE500DF5046 /* Client */ = {
+		B5DD642021C323B800DF5046 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B5DD642221C33EA500DF5046 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B5DD640621C0080C00DF5046 /* Models */,
+				B5DD642721C33F4400DF5046 /* Views */,
+				B5DD642021C323B800DF5046 /* Controllers */,
+				3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */,
+				3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */,
+				3FBEE3BB218B2F61006A5EE0 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B5DD642321C33EB000DF5046 /* Site */ = {
+			isa = PBXGroup;
+			children = (
+				B5DD642421C33EBE00DF5046 /* Models */,
+				B5DD642521C33ECC00DF5046 /* Views */,
+				B5DD642621C33ED500DF5046 /* Controllers */,
+			);
+			path = Site;
+			sourceTree = "<group>";
+		};
+		B5DD642421C33EBE00DF5046 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				B5DD641021C0265700DF5046 /* Buzz.swift */,
-				B5DD641A21C31C2B00DF5046 /* SessionId.swift */,
-				B5DD641C21C31C3500DF5046 /* PlayerId.swift */,
-				B5DD640A21C0131C00DF5046 /* Player.swift */,
 				B5DD640E21C025CA00DF5046 /* ClientState.swift */,
 				B5DD640821C00B3300DF5046 /* ClientStatus.swift */,
+				B5DD640A21C0131C00DF5046 /* Player.swift */,
+				B5DD641C21C31C3500DF5046 /* PlayerId.swift */,
+				B5DD641A21C31C2B00DF5046 /* SessionId.swift */,
 			);
-			path = Client;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5DD642521C33ECC00DF5046 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B5DD642621C33ED500DF5046 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B5DD642721C33F4400DF5046 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */,
+				3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
