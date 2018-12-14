@@ -15,13 +15,14 @@
 		3FBEE3C5218B2F61006A5EE0 /* LAN_BuzzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3C4218B2F61006A5EE0 /* LAN_BuzzerTests.swift */; };
 		3FBEE3D0218B2F61006A5EE0 /* LAN_BuzzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */; };
 		4C5DAACFB58A076536985AC9 /* Pods_LAN_Buzzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40314D8CBD496F2BB79C678A /* Pods_LAN_Buzzer.framework */; };
-		B5DD640921C00B3300DF5046 /* ClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640821C00B3300DF5046 /* ClientStatus.swift */; };
 		B5DD640B21C0131C00DF5046 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640A21C0131C00DF5046 /* Player.swift */; };
 		B5DD640F21C025CA00DF5046 /* ClientState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640E21C025CA00DF5046 /* ClientState.swift */; };
 		B5DD641121C0265700DF5046 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641021C0265700DF5046 /* Buzz.swift */; };
-		B5DD641B21C31C2B00DF5046 /* SessionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641A21C31C2B00DF5046 /* SessionId.swift */; };
-		B5DD641D21C31C3600DF5046 /* PlayerId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641C21C31C3500DF5046 /* PlayerId.swift */; };
-		B5DD642921C3404A00DF5046 /* IndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642821C3404A00DF5046 /* IndexController.swift */; };
+		B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642821C3404A00DF5046 /* SiteController.swift */; };
+		B5DD642B21C4240700DF5046 /* BuzzerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642A21C4240700DF5046 /* BuzzerController.swift */; };
+		B5DD642D21C42B2D00DF5046 /* ClientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642C21C42B2D00DF5046 /* ClientController.swift */; };
+		B5DD643121C44F1E00DF5046 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643021C44F1E00DF5046 /* Client.swift */; };
+		B5DD643321C4568200DF5046 /* ClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643221C4568200DF5046 /* ClientDelegate.swift */; };
 		C063CEDB4299AB344A0685DC /* Pods_LAN_BuzzerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3644C8BB27A237AE23D0F10D /* Pods_LAN_BuzzerTests.framework */; };
 		EA6FACB899C75192B4C2FDC5 /* Pods_LAN_BuzzerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F6719ACD2D3B979BBA4D6D /* Pods_LAN_BuzzerUITests.framework */; };
 /* End PBXBuildFile section */
@@ -64,13 +65,14 @@
 		6CF8ED0BE490EF36EC673A63 /* Pods-LAN Buzzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN Buzzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.release.xcconfig"; sourceTree = "<group>"; };
 		901D18C4F03AB97EC2A96D2C /* Pods-LAN BuzzerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A274324D54CEB8B2278A7186 /* Pods-LAN BuzzerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B5DD640821C00B3300DF5046 /* ClientStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientStatus.swift; sourceTree = "<group>"; };
 		B5DD640A21C0131C00DF5046 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B5DD640E21C025CA00DF5046 /* ClientState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientState.swift; sourceTree = "<group>"; };
 		B5DD641021C0265700DF5046 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
-		B5DD641A21C31C2B00DF5046 /* SessionId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionId.swift; sourceTree = "<group>"; };
-		B5DD641C21C31C3500DF5046 /* PlayerId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerId.swift; sourceTree = "<group>"; };
-		B5DD642821C3404A00DF5046 /* IndexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexController.swift; sourceTree = "<group>"; };
+		B5DD642821C3404A00DF5046 /* SiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteController.swift; sourceTree = "<group>"; };
+		B5DD642A21C4240700DF5046 /* BuzzerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzerController.swift; sourceTree = "<group>"; };
+		B5DD642C21C42B2D00DF5046 /* ClientController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientController.swift; sourceTree = "<group>"; };
+		B5DD643021C44F1E00DF5046 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		B5DD643221C4568200DF5046 /* ClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientDelegate.swift; sourceTree = "<group>"; };
 		C4D2A5A2F5270EA3BD17B46E /* Pods-LAN Buzzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN Buzzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.debug.xcconfig"; sourceTree = "<group>"; };
 		D82EA8CBFE69470CD215E695 /* Pods-LAN BuzzerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,8 +153,12 @@
 		3FBEE3AE218B2F5F006A5EE0 /* LAN Buzzer */ = {
 			isa = PBXGroup;
 			children = (
-				B5DD642221C33EA500DF5046 /* App */,
-				B5DD642321C33EB000DF5046 /* Site */,
+				B5DD640621C0080C00DF5046 /* Models */,
+				B5DD642721C33F4400DF5046 /* Views */,
+				B5DD642021C323B800DF5046 /* Controllers */,
+				3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */,
+				3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */,
+				3FBEE3BB218B2F61006A5EE0 /* Info.plist */,
 			);
 			path = "LAN Buzzer";
 			sourceTree = "<group>";
@@ -178,6 +184,11 @@
 		B5DD640621C0080C00DF5046 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B5DD641021C0265700DF5046 /* Buzz.swift */,
+				B5DD643021C44F1E00DF5046 /* Client.swift */,
+				B5DD643221C4568200DF5046 /* ClientDelegate.swift */,
+				B5DD640E21C025CA00DF5046 /* ClientState.swift */,
+				B5DD640A21C0131C00DF5046 /* Player.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,58 +196,10 @@
 		B5DD642021C323B800DF5046 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B5DD642A21C4240700DF5046 /* BuzzerController.swift */,
+				B5DD642C21C42B2D00DF5046 /* ClientController.swift */,
 				3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		B5DD642221C33EA500DF5046 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				B5DD640621C0080C00DF5046 /* Models */,
-				B5DD642721C33F4400DF5046 /* Views */,
-				B5DD642021C323B800DF5046 /* Controllers */,
-				3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */,
-				3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */,
-				3FBEE3BB218B2F61006A5EE0 /* Info.plist */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		B5DD642321C33EB000DF5046 /* Site */ = {
-			isa = PBXGroup;
-			children = (
-				B5DD642421C33EBE00DF5046 /* Models */,
-				B5DD642521C33ECC00DF5046 /* Views */,
-				B5DD642621C33ED500DF5046 /* Controllers */,
-			);
-			path = Site;
-			sourceTree = "<group>";
-		};
-		B5DD642421C33EBE00DF5046 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				B5DD641021C0265700DF5046 /* Buzz.swift */,
-				B5DD640E21C025CA00DF5046 /* ClientState.swift */,
-				B5DD640821C00B3300DF5046 /* ClientStatus.swift */,
-				B5DD640A21C0131C00DF5046 /* Player.swift */,
-				B5DD641C21C31C3500DF5046 /* PlayerId.swift */,
-				B5DD641A21C31C2B00DF5046 /* SessionId.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		B5DD642521C33ECC00DF5046 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		B5DD642621C33ED500DF5046 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				B5DD642821C3404A00DF5046 /* IndexController.swift */,
+				B5DD642821C3404A00DF5046 /* SiteController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -475,14 +438,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5DD640921C00B3300DF5046 /* ClientStatus.swift in Sources */,
-				B5DD642921C3404A00DF5046 /* IndexController.swift in Sources */,
-				B5DD641B21C31C2B00DF5046 /* SessionId.swift in Sources */,
+				B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */,
+				B5DD643321C4568200DF5046 /* ClientDelegate.swift in Sources */,
+				B5DD642B21C4240700DF5046 /* BuzzerController.swift in Sources */,
 				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
-				B5DD641D21C31C3600DF5046 /* PlayerId.swift in Sources */,
+				B5DD643121C44F1E00DF5046 /* Client.swift in Sources */,
 				B5DD640B21C0131C00DF5046 /* Player.swift in Sources */,
 				B5DD640F21C025CA00DF5046 /* ClientState.swift in Sources */,
 				B5DD641121C0265700DF5046 /* Buzz.swift in Sources */,
+				B5DD642D21C42B2D00DF5046 /* ClientController.swift in Sources */,
 				3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
