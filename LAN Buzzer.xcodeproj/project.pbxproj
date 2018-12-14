@@ -14,12 +14,16 @@
 		3FBEE3BA218B2F61006A5EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */; };
 		3FBEE3C5218B2F61006A5EE0 /* LAN_BuzzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3C4218B2F61006A5EE0 /* LAN_BuzzerTests.swift */; };
 		3FBEE3D0218B2F61006A5EE0 /* LAN_BuzzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */; };
+		4C5DAACFB58A076536985AC9 /* Pods_LAN_Buzzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40314D8CBD496F2BB79C678A /* Pods_LAN_Buzzer.framework */; };
 		B5DD640921C00B3300DF5046 /* ClientStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640821C00B3300DF5046 /* ClientStatus.swift */; };
 		B5DD640B21C0131C00DF5046 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640A21C0131C00DF5046 /* Player.swift */; };
 		B5DD640F21C025CA00DF5046 /* ClientState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD640E21C025CA00DF5046 /* ClientState.swift */; };
 		B5DD641121C0265700DF5046 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641021C0265700DF5046 /* Buzz.swift */; };
 		B5DD641B21C31C2B00DF5046 /* SessionId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641A21C31C2B00DF5046 /* SessionId.swift */; };
 		B5DD641D21C31C3600DF5046 /* PlayerId.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641C21C31C3500DF5046 /* PlayerId.swift */; };
+		B5DD642921C3404A00DF5046 /* IndexController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642821C3404A00DF5046 /* IndexController.swift */; };
+		C063CEDB4299AB344A0685DC /* Pods_LAN_BuzzerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3644C8BB27A237AE23D0F10D /* Pods_LAN_BuzzerTests.framework */; };
+		EA6FACB899C75192B4C2FDC5 /* Pods_LAN_BuzzerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38F6719ACD2D3B979BBA4D6D /* Pods_LAN_BuzzerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10867FE860379D288F0EE171 /* Pods-LAN BuzzerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.release.xcconfig"; sourceTree = "<group>"; };
+		3644C8BB27A237AE23D0F10D /* Pods_LAN_BuzzerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAN_BuzzerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F6719ACD2D3B979BBA4D6D /* Pods_LAN_BuzzerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAN_BuzzerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBEE3AC218B2F5F006A5EE0 /* LAN Buzzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LAN Buzzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,12 +60,19 @@
 		3FBEE3CB218B2F61006A5EE0 /* LAN BuzzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LAN BuzzerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBEE3CF218B2F61006A5EE0 /* LAN_BuzzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LAN_BuzzerUITests.swift; sourceTree = "<group>"; };
 		3FBEE3D1218B2F61006A5EE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40314D8CBD496F2BB79C678A /* Pods_LAN_Buzzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAN_Buzzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF8ED0BE490EF36EC673A63 /* Pods-LAN Buzzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN Buzzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.release.xcconfig"; sourceTree = "<group>"; };
+		901D18C4F03AB97EC2A96D2C /* Pods-LAN BuzzerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A274324D54CEB8B2278A7186 /* Pods-LAN BuzzerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B5DD640821C00B3300DF5046 /* ClientStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientStatus.swift; sourceTree = "<group>"; };
 		B5DD640A21C0131C00DF5046 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B5DD640E21C025CA00DF5046 /* ClientState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientState.swift; sourceTree = "<group>"; };
 		B5DD641021C0265700DF5046 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
 		B5DD641A21C31C2B00DF5046 /* SessionId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionId.swift; sourceTree = "<group>"; };
 		B5DD641C21C31C3500DF5046 /* PlayerId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerId.swift; sourceTree = "<group>"; };
+		B5DD642821C3404A00DF5046 /* IndexController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndexController.swift; sourceTree = "<group>"; };
+		C4D2A5A2F5270EA3BD17B46E /* Pods-LAN Buzzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN Buzzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.debug.xcconfig"; sourceTree = "<group>"; };
+		D82EA8CBFE69470CD215E695 /* Pods-LAN BuzzerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C5DAACFB58A076536985AC9 /* Pods_LAN_Buzzer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C063CEDB4299AB344A0685DC /* Pods_LAN_BuzzerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6FACB899C75192B4C2FDC5 /* Pods_LAN_BuzzerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04983A32EE94247554A9AED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40314D8CBD496F2BB79C678A /* Pods_LAN_Buzzer.framework */,
+				3644C8BB27A237AE23D0F10D /* Pods_LAN_BuzzerTests.framework */,
+				38F6719ACD2D3B979BBA4D6D /* Pods_LAN_BuzzerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1FEEE5B569D017E2C3186164 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4D2A5A2F5270EA3BD17B46E /* Pods-LAN Buzzer.debug.xcconfig */,
+				6CF8ED0BE490EF36EC673A63 /* Pods-LAN Buzzer.release.xcconfig */,
+				D82EA8CBFE69470CD215E695 /* Pods-LAN BuzzerTests.debug.xcconfig */,
+				10867FE860379D288F0EE171 /* Pods-LAN BuzzerTests.release.xcconfig */,
+				A274324D54CEB8B2278A7186 /* Pods-LAN BuzzerUITests.debug.xcconfig */,
+				901D18C4F03AB97EC2A96D2C /* Pods-LAN BuzzerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3FBEE3A3218B2F5F006A5EE0 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +133,8 @@
 				3FBEE3C3218B2F61006A5EE0 /* LAN BuzzerTests */,
 				3FBEE3CE218B2F61006A5EE0 /* LAN BuzzerUITests */,
 				3FBEE3AD218B2F5F006A5EE0 /* Products */,
+				1FEEE5B569D017E2C3186164 /* Pods */,
+				04983A32EE94247554A9AED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,6 +236,7 @@
 		B5DD642621C33ED500DF5046 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				B5DD642821C3404A00DF5046 /* IndexController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -214,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FBEE3D4218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN Buzzer" */;
 			buildPhases = (
+				2C4257CBB3FAF0040D1B491B /* [CP] Check Pods Manifest.lock */,
 				3FBEE3A8218B2F5F006A5EE0 /* Sources */,
 				3FBEE3A9218B2F5F006A5EE0 /* Frameworks */,
 				3FBEE3AA218B2F5F006A5EE0 /* Resources */,
+				AC7694FB873A921601FDA01B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FBEE3D7218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN BuzzerTests" */;
 			buildPhases = (
+				53BBB92309C4FC7F36EBA6C8 /* [CP] Check Pods Manifest.lock */,
 				3FBEE3BC218B2F61006A5EE0 /* Sources */,
 				3FBEE3BD218B2F61006A5EE0 /* Frameworks */,
 				3FBEE3BE218B2F61006A5EE0 /* Resources */,
@@ -249,6 +295,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FBEE3DA218B2F61006A5EE0 /* Build configuration list for PBXNativeTarget "LAN BuzzerUITests" */;
 			buildPhases = (
+				43048641B81A416FE0242983 /* [CP] Check Pods Manifest.lock */,
 				3FBEE3C7218B2F61006A5EE0 /* Sources */,
 				3FBEE3C8218B2F61006A5EE0 /* Frameworks */,
 				3FBEE3C9218B2F61006A5EE0 /* Resources */,
@@ -332,12 +379,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C4257CBB3FAF0040D1B491B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAN Buzzer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43048641B81A416FE0242983 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAN BuzzerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53BBB92309C4FC7F36EBA6C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LAN BuzzerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7694FB873A921601FDA01B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3FBEE3A8218B2F5F006A5EE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B5DD640921C00B3300DF5046 /* ClientStatus.swift in Sources */,
+				B5DD642921C3404A00DF5046 /* IndexController.swift in Sources */,
 				B5DD641B21C31C2B00DF5046 /* SessionId.swift in Sources */,
 				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
 				B5DD641D21C31C3600DF5046 /* PlayerId.swift in Sources */,
@@ -517,10 +656,13 @@
 		};
 		3FBEE3D5218B2F61006A5EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D2A5A2F5270EA3BD17B46E /* Pods-LAN Buzzer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9S5F8J2G4;
 				INFOPLIST_FILE = "LAN Buzzer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -534,10 +676,13 @@
 		};
 		3FBEE3D6218B2F61006A5EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF8ED0BE490EF36EC673A63 /* Pods-LAN Buzzer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M9S5F8J2G4;
 				INFOPLIST_FILE = "LAN Buzzer/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,6 +696,7 @@
 		};
 		3FBEE3D8218B2F61006A5EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D82EA8CBFE69470CD215E695 /* Pods-LAN BuzzerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -571,6 +717,7 @@
 		};
 		3FBEE3D9218B2F61006A5EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10867FE860379D288F0EE171 /* Pods-LAN BuzzerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -591,6 +738,7 @@
 		};
 		3FBEE3DB218B2F61006A5EE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A274324D54CEB8B2278A7186 /* Pods-LAN BuzzerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -610,6 +758,7 @@
 		};
 		3FBEE3DC218B2F61006A5EE0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901D18C4F03AB97EC2A96D2C /* Pods-LAN BuzzerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
