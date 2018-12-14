@@ -1,0 +1,6 @@
+framework module Pods_LAN_BuzzerUITests {
+  umbrella header "Pods-LAN BuzzerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

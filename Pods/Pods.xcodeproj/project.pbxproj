@@ -1,0 +1,1047 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051EB36FA01C58A26C547A30A526586A /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212E4FAB3F02C50897993429E5E5B114 /* HttpServer.swift */; };
+		0F651830E65557447C2E8CF7F697B415 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792B0DD9326B8A379266D7FD26F245E2 /* Files.swift */; };
+		14C19859529473451BD1F872A91BB266 /* Swifter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B607AF3AEF60C123B9CB592593C839B8 /* Swifter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1B1693B0332FF64EBD21850400AD2C /* Scopes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B639FD41569702B21EDAB903296C85F8 /* Scopes.swift */; };
+		1EC10F7E2165E0B2E22BA4437A5F49A5 /* HttpRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2163F2661BC03541CB16FF2E0DD89C8D /* HttpRouter.swift */; };
+		20ABF95C5F0252C368F743BB4A771D2E /* Pods-LAN Buzzer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB90715019F64C47BDDC0BBA8BDF915 /* Pods-LAN Buzzer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D37796E9521461D4775C742AE379B98 /* Process.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8CCC401B62426D7DFF780E25B6DB79 /* Process.swift */; };
+		2EBA70910E727E9533D05120D12CEB3C /* Socket+Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43762660B78C27BD6B3F565A48CED5 /* Socket+Server.swift */; };
+		3068C118517851C37CF5F5DFC48B4C54 /* String+BASE64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C48C945C9A91911D40E005866D24E2 /* String+BASE64.swift */; };
+		32634EEB5017D2A0D01C2ED760418D64 /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0721BAA5C1AA11F0AE3104E04A2F98DF /* HttpResponse.swift */; };
+		4743719BD1259D95A5A03F12A6EAF55F /* String+SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90120D50B4CDCD95B5F9F2EF966A33EB /* String+SHA1.swift */; };
+		5398EF0309B58906BA6F3348A8E78950 /* MimeTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AC393EF6E9E3B2B814D179666E51BB /* MimeTypes.swift */; };
+		543D85DB440ABD841C2AFA05CF10C3CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		574464A5EFEA22672199B63EB8BEB637 /* String+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99B3692FDF9A83B95FC5E2EB3A17E10 /* String+Misc.swift */; };
+		785ECAC938048446F584DBA12541FDA6 /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1186F4C087AC5B2BCA0CD5AA1353B2F0 /* HttpRequest.swift */; };
+		85A5FADF62FA71EAB4F77B6B386F5CEA /* Errno.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07D8C51A4C252B2033D4FAEA851EF90 /* Errno.swift */; };
+		87543BDE8130526B0DABD47060D4A75F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		8DD0498A528D079CDD6EE8D2BC033C57 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		9305836E3227D9028D2304C59CD2AD39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		952C8F9A4749316905E8235A896024ED /* HttpServerIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F474CA0A39E144F9CFC89296EDEF012 /* HttpServerIO.swift */; };
+		9974FCFFF1478C7A5AA5F0A852DF6F57 /* Socket+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5722BAB48E1EBC3EB5AC51C5D6E193A9 /* Socket+File.swift */; };
+		9B87ED3A1C488D64CE265FCFCF7A7149 /* Pods-LAN BuzzerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9268985FEA4B63139730B6C2A08138F /* Pods-LAN BuzzerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC83762B8679972EF1E016000BDDD6DC /* Swifter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6F841320CA1C6BFCC022CA761CFADA /* Swifter-dummy.m */; };
+		AFCF4D61C54D78FA030F0D55557D31DF /* HttpParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4345FBC017564DF9AEC9364BC22BB4BA /* HttpParser.swift */; };
+		B9A7F56C25B34E4B6139D38778B8098D /* Pods-LAN BuzzerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C83DE01E3E276EA6AEC43BE6E7A9792 /* Pods-LAN BuzzerTests-dummy.m */; };
+		C1CB199C3A25F83755A85E74494D2C3D /* DemoServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D68945688C38591800E67799FA8C2E9 /* DemoServer.swift */; };
+		C44AEC42237E4A9D56E51E8967E677D2 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F55C2260A0393B2F10B199D19C08DD01 /* Socket.swift */; };
+		C5A125C88F5150AD510705141054CBBE /* Pods-LAN BuzzerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 404653D40FBBFBF2B1CBF03E3404C773 /* Pods-LAN BuzzerUITests-dummy.m */; };
+		CEB544BD5FA1E32BA1587D0AAC15BBEE /* WebSockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3FDAC4D166380E140AD99572F3EDBF /* WebSockets.swift */; };
+		D23B3D1E5B99E46A0DFE446AA9560223 /* Pods-LAN BuzzerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C47B9E89352586F064F2ECC8CD6A75 /* Pods-LAN BuzzerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E570889A368DBD39DF339B3355C7F7B2 /* String+File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83C3BD925EA3B9C2A75A00BA0F9CAB /* String+File.swift */; };
+		EE5717B4B3D3EE16503B123F0C765671 /* Pods-LAN Buzzer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E59B376AD19D7ED50AE72F3AA00C82 /* Pods-LAN Buzzer-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AC10119F61FD14C416142AFBCABE0FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DF5B1FDC4AEB222D7354AE7FDD6BBC;
+			remoteInfo = "Pods-LAN Buzzer";
+		};
+		46FC367E2CDD5D2EC0C127A6FC85F220 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802350FA578ACDFE61D250BBA2308F90;
+			remoteInfo = Swifter;
+		};
+		C03263534C5C416A9A18D090B3A642D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7DF5B1FDC4AEB222D7354AE7FDD6BBC;
+			remoteInfo = "Pods-LAN Buzzer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0721BAA5C1AA11F0AE3104E04A2F98DF /* HttpResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpResponse.swift; path = Sources/HttpResponse.swift; sourceTree = "<group>"; };
+		1092B807ADA96B431A4583D54F839AF5 /* Pods-LAN BuzzerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAN BuzzerTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		10C47B9E89352586F064F2ECC8CD6A75 /* Pods-LAN BuzzerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LAN BuzzerTests-umbrella.h"; sourceTree = "<group>"; };
+		1186F4C087AC5B2BCA0CD5AA1353B2F0 /* HttpRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRequest.swift; path = Sources/HttpRequest.swift; sourceTree = "<group>"; };
+		12D237E1FDAB21BC49D33552F6747FE9 /* Pods_LAN_Buzzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAN_Buzzer.framework; path = "Pods-LAN Buzzer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		212E4FAB3F02C50897993429E5E5B114 /* HttpServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpServer.swift; path = Sources/HttpServer.swift; sourceTree = "<group>"; };
+		2163F2661BC03541CB16FF2E0DD89C8D /* HttpRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpRouter.swift; path = Sources/HttpRouter.swift; sourceTree = "<group>"; };
+		217B3D9641AB848E15DD88598EFACBE1 /* Swifter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-prefix.pch"; sourceTree = "<group>"; };
+		2F424BA93877DE6900DA7044A117565A /* Pods-LAN Buzzer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAN Buzzer-acknowledgements.plist"; sourceTree = "<group>"; };
+		34E59B376AD19D7ED50AE72F3AA00C82 /* Pods-LAN Buzzer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LAN Buzzer-dummy.m"; sourceTree = "<group>"; };
+		35B796868984431D4CE2A03363BA16D7 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swifter.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D09F9D0937A7455F8EE5CB98753D050 /* Pods-LAN BuzzerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAN BuzzerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D68945688C38591800E67799FA8C2E9 /* DemoServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DemoServer.swift; path = Sources/DemoServer.swift; sourceTree = "<group>"; };
+		404653D40FBBFBF2B1CBF03E3404C773 /* Pods-LAN BuzzerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LAN BuzzerUITests-dummy.m"; sourceTree = "<group>"; };
+		433C163DA6657BA6E3912D03A6B4D0D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4345FBC017564DF9AEC9364BC22BB4BA /* HttpParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpParser.swift; path = Sources/HttpParser.swift; sourceTree = "<group>"; };
+		4693BE02BFD1C481357273C121D112D7 /* Pods-LAN BuzzerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAN BuzzerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56AAC61134509BB9D4D71FF23C77D9E5 /* Pods-LAN BuzzerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAN BuzzerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5722BAB48E1EBC3EB5AC51C5D6E193A9 /* Socket+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+File.swift"; path = "Sources/Socket+File.swift"; sourceTree = "<group>"; };
+		5CD52A5FC709D4D1A4F1B4885D1F7522 /* Pods-LAN BuzzerTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN BuzzerTests-resources.sh"; sourceTree = "<group>"; };
+		5D8CCC401B62426D7DFF780E25B6DB79 /* Process.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Process.swift; path = Sources/Process.swift; sourceTree = "<group>"; };
+		600A31827C9055F46D4F0FC958242FED /* Pods_LAN_BuzzerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAN_BuzzerTests.framework; path = "Pods-LAN BuzzerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C48C945C9A91911D40E005866D24E2 /* String+BASE64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+BASE64.swift"; path = "Sources/String+BASE64.swift"; sourceTree = "<group>"; };
+		769963FCBDC2593B29906055D6885577 /* Pods-LAN Buzzer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN Buzzer-frameworks.sh"; sourceTree = "<group>"; };
+		792B0DD9326B8A379266D7FD26F245E2 /* Files.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Files.swift; path = Sources/Files.swift; sourceTree = "<group>"; };
+		79AC393EF6E9E3B2B814D179666E51BB /* MimeTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MimeTypes.swift; path = Sources/MimeTypes.swift; sourceTree = "<group>"; };
+		7C83DE01E3E276EA6AEC43BE6E7A9792 /* Pods-LAN BuzzerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LAN BuzzerTests-dummy.m"; sourceTree = "<group>"; };
+		829620293E2ACC22501DA1246C528FD5 /* Pods-LAN Buzzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAN Buzzer.debug.xcconfig"; sourceTree = "<group>"; };
+		8E4BA30BDB435167364114839D58F543 /* Swifter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Swifter.modulemap; sourceTree = "<group>"; };
+		8F474CA0A39E144F9CFC89296EDEF012 /* HttpServerIO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpServerIO.swift; path = Sources/HttpServerIO.swift; sourceTree = "<group>"; };
+		8FFC558ADC1D4001BCA166B50BBF32D1 /* Pods-LAN Buzzer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN Buzzer-resources.sh"; sourceTree = "<group>"; };
+		90120D50B4CDCD95B5F9F2EF966A33EB /* String+SHA1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+SHA1.swift"; path = "Sources/String+SHA1.swift"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960BD61ECBD844EF4A11739C940620E1 /* Pods-LAN BuzzerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAN BuzzerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9821836C254633F7AACF174FBBE4F2D6 /* Pods-LAN BuzzerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAN BuzzerTests.modulemap"; sourceTree = "<group>"; };
+		9AB05D539F482CBCF77E88F1528B5BCB /* Pods-LAN Buzzer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAN Buzzer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9C83C3BD925EA3B9C2A75A00BA0F9CAB /* String+File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+File.swift"; path = "Sources/String+File.swift"; sourceTree = "<group>"; };
+		9CB90715019F64C47BDDC0BBA8BDF915 /* Pods-LAN Buzzer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LAN Buzzer-umbrella.h"; sourceTree = "<group>"; };
+		9DAEE4CF2F6C0944C0EE75718188BAC5 /* Pods_LAN_BuzzerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAN_BuzzerUITests.framework; path = "Pods-LAN BuzzerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3FDAC4D166380E140AD99572F3EDBF /* WebSockets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSockets.swift; path = Sources/WebSockets.swift; sourceTree = "<group>"; };
+		AEBF29232FB41047B2789982497CE649 /* Pods-LAN Buzzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAN Buzzer.release.xcconfig"; sourceTree = "<group>"; };
+		AF9BC98E01446F3D6DC81474A8C09718 /* Pods-LAN BuzzerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAN BuzzerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B450513D11E129A76404983F195A93F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B607AF3AEF60C123B9CB592593C839B8 /* Swifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-umbrella.h"; sourceTree = "<group>"; };
+		B639FD41569702B21EDAB903296C85F8 /* Scopes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scopes.swift; path = Sources/Scopes.swift; sourceTree = "<group>"; };
+		B854EBC82F9C9A571CE21BF04ED7B607 /* Pods-LAN BuzzerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN BuzzerUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B9268985FEA4B63139730B6C2A08138F /* Pods-LAN BuzzerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LAN BuzzerUITests-umbrella.h"; sourceTree = "<group>"; };
+		B99B3692FDF9A83B95FC5E2EB3A17E10 /* String+Misc.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Misc.swift"; path = "Sources/String+Misc.swift"; sourceTree = "<group>"; };
+		BF5EF17AB322508594E3E428D5FF1897 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6F841320CA1C6BFCC022CA761CFADA /* Swifter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Swifter-dummy.m"; sourceTree = "<group>"; };
+		D1288E9215B28B05AE8DAF52FAA16AE0 /* Pods-LAN BuzzerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN BuzzerTests-frameworks.sh"; sourceTree = "<group>"; };
+		D2B0555EE629DE005AA3D354C891A1F5 /* Pods-LAN BuzzerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN BuzzerUITests-resources.sh"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D707EA82696241FC8ADD42DD44EE1B6B /* Pods-LAN BuzzerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAN BuzzerUITests.modulemap"; sourceTree = "<group>"; };
+		DD43762660B78C27BD6B3F565A48CED5 /* Socket+Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+Server.swift"; path = "Sources/Socket+Server.swift"; sourceTree = "<group>"; };
+		DE9795C7CC51FCCAC7EE9E5A57DF9920 /* Swifter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.xcconfig; sourceTree = "<group>"; };
+		E07D8C51A4C252B2033D4FAEA851EF90 /* Errno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errno.swift; path = Sources/Errno.swift; sourceTree = "<group>"; };
+		E3A6E254263D2B509D06C198CD7DD67B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6ED3B6A37BEC8311E519C2F5A4CEE9C /* Pods-LAN BuzzerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LAN BuzzerTests.release.xcconfig"; sourceTree = "<group>"; };
+		EE5875F4E0E625A900FBFC56F7327887 /* Pods-LAN BuzzerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAN BuzzerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F55C2260A0393B2F10B199D19C08DD01 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
+		FE3F943D4DFD6BA9E18FF667C45DB0CE /* Pods-LAN Buzzer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAN Buzzer.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FA4DF3E8DC1E2D95451A50A0B90BF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				543D85DB440ABD841C2AFA05CF10C3CE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26E77EA8EA7FD499A43EF75EE3A38F25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9305836E3227D9028D2304C59CD2AD39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3C8F585433EDADB83DE0E2D67B5FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87543BDE8130526B0DABD47060D4A75F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2CFE1B6D32486DCF110EC6E3A11E9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD0498A528D079CDD6EE8D2BC033C57 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1DAB3025BBA739B70BF67DA1068571 /* Pods-LAN BuzzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3A6E254263D2B509D06C198CD7DD67B /* Info.plist */,
+				9821836C254633F7AACF174FBBE4F2D6 /* Pods-LAN BuzzerTests.modulemap */,
+				EE5875F4E0E625A900FBFC56F7327887 /* Pods-LAN BuzzerTests-acknowledgements.markdown */,
+				1092B807ADA96B431A4583D54F839AF5 /* Pods-LAN BuzzerTests-acknowledgements.plist */,
+				7C83DE01E3E276EA6AEC43BE6E7A9792 /* Pods-LAN BuzzerTests-dummy.m */,
+				D1288E9215B28B05AE8DAF52FAA16AE0 /* Pods-LAN BuzzerTests-frameworks.sh */,
+				5CD52A5FC709D4D1A4F1B4885D1F7522 /* Pods-LAN BuzzerTests-resources.sh */,
+				10C47B9E89352586F064F2ECC8CD6A75 /* Pods-LAN BuzzerTests-umbrella.h */,
+				3D09F9D0937A7455F8EE5CB98753D050 /* Pods-LAN BuzzerTests.debug.xcconfig */,
+				E6ED3B6A37BEC8311E519C2F5A4CEE9C /* Pods-LAN BuzzerTests.release.xcconfig */,
+			);
+			name = "Pods-LAN BuzzerTests";
+			path = "Target Support Files/Pods-LAN BuzzerTests";
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57E7AC413D73A2F42F059B63C18A4AA8 /* Swifter */ = {
+			isa = PBXGroup;
+			children = (
+				3D68945688C38591800E67799FA8C2E9 /* DemoServer.swift */,
+				E07D8C51A4C252B2033D4FAEA851EF90 /* Errno.swift */,
+				792B0DD9326B8A379266D7FD26F245E2 /* Files.swift */,
+				4345FBC017564DF9AEC9364BC22BB4BA /* HttpParser.swift */,
+				1186F4C087AC5B2BCA0CD5AA1353B2F0 /* HttpRequest.swift */,
+				0721BAA5C1AA11F0AE3104E04A2F98DF /* HttpResponse.swift */,
+				2163F2661BC03541CB16FF2E0DD89C8D /* HttpRouter.swift */,
+				212E4FAB3F02C50897993429E5E5B114 /* HttpServer.swift */,
+				8F474CA0A39E144F9CFC89296EDEF012 /* HttpServerIO.swift */,
+				79AC393EF6E9E3B2B814D179666E51BB /* MimeTypes.swift */,
+				5D8CCC401B62426D7DFF780E25B6DB79 /* Process.swift */,
+				B639FD41569702B21EDAB903296C85F8 /* Scopes.swift */,
+				F55C2260A0393B2F10B199D19C08DD01 /* Socket.swift */,
+				5722BAB48E1EBC3EB5AC51C5D6E193A9 /* Socket+File.swift */,
+				DD43762660B78C27BD6B3F565A48CED5 /* Socket+Server.swift */,
+				64C48C945C9A91911D40E005866D24E2 /* String+BASE64.swift */,
+				9C83C3BD925EA3B9C2A75A00BA0F9CAB /* String+File.swift */,
+				B99B3692FDF9A83B95FC5E2EB3A17E10 /* String+Misc.swift */,
+				90120D50B4CDCD95B5F9F2EF966A33EB /* String+SHA1.swift */,
+				AD3FDAC4D166380E140AD99572F3EDBF /* WebSockets.swift */,
+				A3432F8B90F4CFD1D4BC34F185C94681 /* Support Files */,
+			);
+			name = Swifter;
+			path = Swifter;
+			sourceTree = "<group>";
+		};
+		67C5CFF9A9BAEA5C9723DFFB3D2956D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F94E2C5B5FC25400DF350C678185E7E7 /* Pods-LAN Buzzer */,
+				3B1DAB3025BBA739B70BF67DA1068571 /* Pods-LAN BuzzerTests */,
+				72D920EF8A76507A2B7E7DBCB34CF0EF /* Pods-LAN BuzzerUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72D920EF8A76507A2B7E7DBCB34CF0EF /* Pods-LAN BuzzerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B450513D11E129A76404983F195A93F0 /* Info.plist */,
+				D707EA82696241FC8ADD42DD44EE1B6B /* Pods-LAN BuzzerUITests.modulemap */,
+				960BD61ECBD844EF4A11739C940620E1 /* Pods-LAN BuzzerUITests-acknowledgements.markdown */,
+				56AAC61134509BB9D4D71FF23C77D9E5 /* Pods-LAN BuzzerUITests-acknowledgements.plist */,
+				404653D40FBBFBF2B1CBF03E3404C773 /* Pods-LAN BuzzerUITests-dummy.m */,
+				B854EBC82F9C9A571CE21BF04ED7B607 /* Pods-LAN BuzzerUITests-frameworks.sh */,
+				D2B0555EE629DE005AA3D354C891A1F5 /* Pods-LAN BuzzerUITests-resources.sh */,
+				B9268985FEA4B63139730B6C2A08138F /* Pods-LAN BuzzerUITests-umbrella.h */,
+				AF9BC98E01446F3D6DC81474A8C09718 /* Pods-LAN BuzzerUITests.debug.xcconfig */,
+				4693BE02BFD1C481357273C121D112D7 /* Pods-LAN BuzzerUITests.release.xcconfig */,
+			);
+			name = "Pods-LAN BuzzerUITests";
+			path = "Target Support Files/Pods-LAN BuzzerUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B04805A44852B9186D5525EA35787D8A /* Pods */,
+				E459DE6340A824A78425812BB8EF5355 /* Products */,
+				67C5CFF9A9BAEA5C9723DFFB3D2956D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A3432F8B90F4CFD1D4BC34F185C94681 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				433C163DA6657BA6E3912D03A6B4D0D2 /* Info.plist */,
+				8E4BA30BDB435167364114839D58F543 /* Swifter.modulemap */,
+				DE9795C7CC51FCCAC7EE9E5A57DF9920 /* Swifter.xcconfig */,
+				CC6F841320CA1C6BFCC022CA761CFADA /* Swifter-dummy.m */,
+				217B3D9641AB848E15DD88598EFACBE1 /* Swifter-prefix.pch */,
+				B607AF3AEF60C123B9CB592593C839B8 /* Swifter-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Swifter";
+			sourceTree = "<group>";
+		};
+		B04805A44852B9186D5525EA35787D8A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57E7AC413D73A2F42F059B63C18A4AA8 /* Swifter */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E459DE6340A824A78425812BB8EF5355 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12D237E1FDAB21BC49D33552F6747FE9 /* Pods_LAN_Buzzer.framework */,
+				600A31827C9055F46D4F0FC958242FED /* Pods_LAN_BuzzerTests.framework */,
+				9DAEE4CF2F6C0944C0EE75718188BAC5 /* Pods_LAN_BuzzerUITests.framework */,
+				35B796868984431D4CE2A03363BA16D7 /* Swifter.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F94E2C5B5FC25400DF350C678185E7E7 /* Pods-LAN Buzzer */ = {
+			isa = PBXGroup;
+			children = (
+				BF5EF17AB322508594E3E428D5FF1897 /* Info.plist */,
+				FE3F943D4DFD6BA9E18FF667C45DB0CE /* Pods-LAN Buzzer.modulemap */,
+				9AB05D539F482CBCF77E88F1528B5BCB /* Pods-LAN Buzzer-acknowledgements.markdown */,
+				2F424BA93877DE6900DA7044A117565A /* Pods-LAN Buzzer-acknowledgements.plist */,
+				34E59B376AD19D7ED50AE72F3AA00C82 /* Pods-LAN Buzzer-dummy.m */,
+				769963FCBDC2593B29906055D6885577 /* Pods-LAN Buzzer-frameworks.sh */,
+				8FFC558ADC1D4001BCA166B50BBF32D1 /* Pods-LAN Buzzer-resources.sh */,
+				9CB90715019F64C47BDDC0BBA8BDF915 /* Pods-LAN Buzzer-umbrella.h */,
+				829620293E2ACC22501DA1246C528FD5 /* Pods-LAN Buzzer.debug.xcconfig */,
+				AEBF29232FB41047B2789982497CE649 /* Pods-LAN Buzzer.release.xcconfig */,
+			);
+			name = "Pods-LAN Buzzer";
+			path = "Target Support Files/Pods-LAN Buzzer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AB30E3E2E1D1CA5123949F18F6D21F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23B3D1E5B99E46A0DFE446AA9560223 /* Pods-LAN BuzzerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D683297DB76C757566C88D0B6E6BC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20ABF95C5F0252C368F743BB4A771D2E /* Pods-LAN Buzzer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B40DBDC6869CB4D36F9FF791A456C9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C19859529473451BD1F872A91BB266 /* Swifter-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AAEC002923044B10C01981E174C659 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B87ED3A1C488D64CE265FCFCF7A7149 /* Pods-LAN BuzzerUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		49D677045F0F18E2C5C61CCB4622F8DE /* Pods-LAN BuzzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31C50C036733B9BC0295CB779BC8F8E6 /* Build configuration list for PBXNativeTarget "Pods-LAN BuzzerTests" */;
+			buildPhases = (
+				0AB30E3E2E1D1CA5123949F18F6D21F7 /* Headers */,
+				1342E2F50B87FDBBE0A933BBB4E66865 /* Sources */,
+				CE3C8F585433EDADB83DE0E2D67B5FB1 /* Frameworks */,
+				F32F6C3FECFF28F4B6ACC723F185B0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68603B71C67521E8049BA6AF35D949B6 /* PBXTargetDependency */,
+			);
+			name = "Pods-LAN BuzzerTests";
+			productName = "Pods-LAN BuzzerTests";
+			productReference = 600A31827C9055F46D4F0FC958242FED /* Pods_LAN_BuzzerTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6237C14A4DC54A466B6FC9CF401BB638 /* Pods-LAN BuzzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7355AC51E78B7560B68BC591B7D64DA5 /* Build configuration list for PBXNativeTarget "Pods-LAN BuzzerUITests" */;
+			buildPhases = (
+				F7AAEC002923044B10C01981E174C659 /* Headers */,
+				F14FC0D352AC36A3AA663BCE44FC1466 /* Sources */,
+				E2CFE1B6D32486DCF110EC6E3A11E9F8 /* Frameworks */,
+				6548ECF580AB4D3CAAE904A698176CCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D95032C1DD91832423E1B51923980B66 /* PBXTargetDependency */,
+			);
+			name = "Pods-LAN BuzzerUITests";
+			productName = "Pods-LAN BuzzerUITests";
+			productReference = 9DAEE4CF2F6C0944C0EE75718188BAC5 /* Pods_LAN_BuzzerUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		802350FA578ACDFE61D250BBA2308F90 /* Swifter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC9838B480588D94317887463814BA18 /* Build configuration list for PBXNativeTarget "Swifter" */;
+			buildPhases = (
+				9B40DBDC6869CB4D36F9FF791A456C9C /* Headers */,
+				328ED73F6B0B73248D390A5968CFC847 /* Sources */,
+				26E77EA8EA7FD499A43EF75EE3A38F25 /* Frameworks */,
+				CF08C3BB32496160725860083681C7AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swifter;
+			productName = Swifter;
+			productReference = 35B796868984431D4CE2A03363BA16D7 /* Swifter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7DF5B1FDC4AEB222D7354AE7FDD6BBC /* Pods-LAN Buzzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1289635D57C8B6EF7C1FE79D2EE0C132 /* Build configuration list for PBXNativeTarget "Pods-LAN Buzzer" */;
+			buildPhases = (
+				97D683297DB76C757566C88D0B6E6BC8 /* Headers */,
+				A8B8FC1AB3D8382B3F3D38EB65AC38A3 /* Sources */,
+				0FA4DF3E8DC1E2D95451A50A0B90BF2B /* Frameworks */,
+				DC18CD8DF988FD8BAA7290179923B1DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02D72138A5096A1176F383B86680428B /* PBXTargetDependency */,
+			);
+			name = "Pods-LAN Buzzer";
+			productName = "Pods-LAN Buzzer";
+			productReference = 12D237E1FDAB21BC49D33552F6747FE9 /* Pods_LAN_Buzzer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E459DE6340A824A78425812BB8EF5355 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7DF5B1FDC4AEB222D7354AE7FDD6BBC /* Pods-LAN Buzzer */,
+				49D677045F0F18E2C5C61CCB4622F8DE /* Pods-LAN BuzzerTests */,
+				6237C14A4DC54A466B6FC9CF401BB638 /* Pods-LAN BuzzerUITests */,
+				802350FA578ACDFE61D250BBA2308F90 /* Swifter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6548ECF580AB4D3CAAE904A698176CCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF08C3BB32496160725860083681C7AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC18CD8DF988FD8BAA7290179923B1DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32F6C3FECFF28F4B6ACC723F185B0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1342E2F50B87FDBBE0A933BBB4E66865 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9A7F56C25B34E4B6139D38778B8098D /* Pods-LAN BuzzerTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328ED73F6B0B73248D390A5968CFC847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CB199C3A25F83755A85E74494D2C3D /* DemoServer.swift in Sources */,
+				85A5FADF62FA71EAB4F77B6B386F5CEA /* Errno.swift in Sources */,
+				0F651830E65557447C2E8CF7F697B415 /* Files.swift in Sources */,
+				AFCF4D61C54D78FA030F0D55557D31DF /* HttpParser.swift in Sources */,
+				785ECAC938048446F584DBA12541FDA6 /* HttpRequest.swift in Sources */,
+				32634EEB5017D2A0D01C2ED760418D64 /* HttpResponse.swift in Sources */,
+				1EC10F7E2165E0B2E22BA4437A5F49A5 /* HttpRouter.swift in Sources */,
+				051EB36FA01C58A26C547A30A526586A /* HttpServer.swift in Sources */,
+				952C8F9A4749316905E8235A896024ED /* HttpServerIO.swift in Sources */,
+				5398EF0309B58906BA6F3348A8E78950 /* MimeTypes.swift in Sources */,
+				2D37796E9521461D4775C742AE379B98 /* Process.swift in Sources */,
+				1D1B1693B0332FF64EBD21850400AD2C /* Scopes.swift in Sources */,
+				9974FCFFF1478C7A5AA5F0A852DF6F57 /* Socket+File.swift in Sources */,
+				2EBA70910E727E9533D05120D12CEB3C /* Socket+Server.swift in Sources */,
+				C44AEC42237E4A9D56E51E8967E677D2 /* Socket.swift in Sources */,
+				3068C118517851C37CF5F5DFC48B4C54 /* String+BASE64.swift in Sources */,
+				E570889A368DBD39DF339B3355C7F7B2 /* String+File.swift in Sources */,
+				574464A5EFEA22672199B63EB8BEB637 /* String+Misc.swift in Sources */,
+				4743719BD1259D95A5A03F12A6EAF55F /* String+SHA1.swift in Sources */,
+				AC83762B8679972EF1E016000BDDD6DC /* Swifter-dummy.m in Sources */,
+				CEB544BD5FA1E32BA1587D0AAC15BBEE /* WebSockets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8B8FC1AB3D8382B3F3D38EB65AC38A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5717B4B3D3EE16503B123F0C765671 /* Pods-LAN Buzzer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F14FC0D352AC36A3AA663BCE44FC1466 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5A125C88F5150AD510705141054CBBE /* Pods-LAN BuzzerUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02D72138A5096A1176F383B86680428B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Swifter;
+			target = 802350FA578ACDFE61D250BBA2308F90 /* Swifter */;
+			targetProxy = 46FC367E2CDD5D2EC0C127A6FC85F220 /* PBXContainerItemProxy */;
+		};
+		68603B71C67521E8049BA6AF35D949B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LAN Buzzer";
+			target = A7DF5B1FDC4AEB222D7354AE7FDD6BBC /* Pods-LAN Buzzer */;
+			targetProxy = 3AC10119F61FD14C416142AFBCABE0FC /* PBXContainerItemProxy */;
+		};
+		D95032C1DD91832423E1B51923980B66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LAN Buzzer";
+			target = A7DF5B1FDC4AEB222D7354AE7FDD6BBC /* Pods-LAN Buzzer */;
+			targetProxy = C03263534C5C416A9A18D090B3A642D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35356BFF376DEE56A87BAD26A50D9F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6ED3B6A37BEC8311E519C2F5A4CEE9C /* Pods-LAN BuzzerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C1B069495186D997D607E30068CC1F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBF29232FB41047B2789982497CE649 /* Pods-LAN Buzzer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAN Buzzer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6B2AA795BAB62FD4C050DC4B8D78467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9BC98E01446F3D6DC81474A8C09718 /* Pods-LAN BuzzerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7881DAAF0632AF55ED313DFFA385044F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9795C7CC51FCCAC7EE9E5A57DF9920 /* Swifter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		858D01EEFE984249A9581D18DBEA53F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B0D3F7E6E7C1934C56D17AD975803DEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4693BE02BFD1C481357273C121D112D7 /* Pods-LAN BuzzerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF1C6D1756231626EF9B80C3B9770F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D09F9D0937A7455F8EE5CB98753D050 /* Pods-LAN BuzzerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D908579F9C642EDBCDA0EA836A356AA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829620293E2ACC22501DA1246C528FD5 /* Pods-LAN Buzzer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LAN Buzzer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF184FB02DB8F08586E7423742E35383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9795C7CC51FCCAC7EE9E5A57DF9920 /* Swifter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Swifter/Swifter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
+				PRODUCT_MODULE_NAME = Swifter;
+				PRODUCT_NAME = Swifter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1289635D57C8B6EF7C1FE79D2EE0C132 /* Build configuration list for PBXNativeTarget "Pods-LAN Buzzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D908579F9C642EDBCDA0EA836A356AA2 /* Debug */,
+				5C1B069495186D997D607E30068CC1F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				858D01EEFE984249A9581D18DBEA53F1 /* Debug */,
+				5DE19CECB206ACCCACF04D62F93FFDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31C50C036733B9BC0295CB779BC8F8E6 /* Build configuration list for PBXNativeTarget "Pods-LAN BuzzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF1C6D1756231626EF9B80C3B9770F8B /* Debug */,
+				35356BFF376DEE56A87BAD26A50D9F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7355AC51E78B7560B68BC591B7D64DA5 /* Build configuration list for PBXNativeTarget "Pods-LAN BuzzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2AA795BAB62FD4C050DC4B8D78467E /* Debug */,
+				B0D3F7E6E7C1934C56D17AD975803DEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC9838B480588D94317887463814BA18 /* Build configuration list for PBXNativeTarget "Swifter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF184FB02DB8F08586E7423742E35383 /* Debug */,
+				7881DAAF0632AF55ED313DFFA385044F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
