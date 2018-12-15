@@ -9,8 +9,10 @@ import Foundation
 
 class BuzzerController {
     //    private var clientControllers = Dictionary<Int, ClientController>()
-    private var clientControllers = [ClientController]()
+    private var players = [(player: Player, clientController: ClientController)]()
     private var nextPlayerNumber = 1
+    
+    private var buzzes: [Buzz] = []
     
     func addClient(client: Client) {
         let playerNumber = nextPlayerNumber
@@ -34,5 +36,24 @@ class BuzzerController {
     func removeClient(client: Client) {
         clientControllers = clientControllers
             .filter { return $0.client !== client }
+    }
+    
+    private func updateClients() {
+        let players = clientControllers
+            .map { $0.client.state.player }
+        
+        for clientController in clientControllers {
+//            clientController.
+        }
+    }
+    
+    private struct ClientControllerHandler : ClientControllerDelegate {
+        let buzzerController: BuzzerController
+        let clientId: Int
+        var player: Player
+        
+        func onClientExit() {
+            <#code#>
+        }
     }
 }

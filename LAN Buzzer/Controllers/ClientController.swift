@@ -7,31 +7,47 @@
 
 import Foundation
 
-class ClientController : ClientDelegate {
-    private let buzzerController: BuzzerController
-    let client: Client
+class ClientController {
+    private let client: Client
     
-    init(
-        buzzerController: BuzzerController,
-        client: Client
-    ) {
-        self.buzzerController = buzzerController
+    var delegate: ClientControllerDelegate?
+    
+    init(client: Client) {
         self.client = client
+        client.delegate = ClientHandler(clientController: self)
     }
     
-    func onPlayerBuzz(time: Date) {
-        print("Player '\(client.player.name)' Buzzed: \(time)")
+    func updateClientState(state: ClientState) {
+        client.state = state
     }
     
-    func onPlayerUpdateName(name: String) {
-        print("Player '\(client.player.name)' Updated Name: \(name)")
+    private struct ClientHandler : ClientDelegate {
+        let clientController: ClientController
+        
+        private var player: Player {
+            return clientController.client.state.player
+        }
+        
+        func onPlayerBuzz(time: Date) {
+            print("Player '\(player.name)' Buzzed: \(time)")
+        }
+        
+        func onPlayerUpdateName(name: String) {
+            print("Player '\(player.name)' Updated Name: \(name)")
+        }
+        
+        func onPlayerUpdateColor(color: String) {
+            print("Player '\(player.name)' Updated Color: \(color)")
+        }
+        
+        func onPlayerLeave() {
+            print("Player '\(player.name)' Quit")
+        }
     }
+}
+
+
+protocol ClientControllerDelegate {
     
-    func onPlayerUpdateColor(color: String) {
-        print("Player '\(client.player.name)' Updated Color: \(color)")
-    }
-    
-    func onPlayerLeave() {
-        print("Player '\(client.player.name)' Quit")
-    }
+    func onClientExit()
 }
