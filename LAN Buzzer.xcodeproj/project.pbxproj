@@ -18,6 +18,8 @@
 		743B8AA35FEAA7FCFC109D2C /* Pods_LAN_Buzzer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBF4556A538D6BFB1322C68B /* Pods_LAN_Buzzer.framework */; };
 		A35561AEE6B98D36F0437CB2 /* Pods_LAN_BuzzerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F975C9C6E379E635BBBADA8D /* Pods_LAN_BuzzerUITests.framework */; };
 		B5C0AF2921C60B6D000C91F8 /* BuzzerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */; };
+		B5C0AF3121C6E335000C91F8 /* WebSocketPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0AF3021C6E335000C91F8 /* WebSocketPlayer.swift */; };
+		B5C0AF3321C6EF7A000C91F8 /* WebSocketSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0AF3221C6EF7A000C91F8 /* WebSocketSessionDelegate.swift */; };
 		B5DD641121C0265700DF5046 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641021C0265700DF5046 /* Buzz.swift */; };
 		B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642821C3404A00DF5046 /* SiteController.swift */; };
 		B5DD643121C44F1E00DF5046 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643021C44F1E00DF5046 /* Player.swift */; };
@@ -63,6 +65,8 @@
 		8D0C44AE0E7A4C6958DA3ADB /* Pods-LAN BuzzerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN BuzzerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B6F8CB04FE262F952090213 /* Pods-LAN Buzzer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN Buzzer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.debug.xcconfig"; sourceTree = "<group>"; };
 		B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzerSession.swift; sourceTree = "<group>"; };
+		B5C0AF3021C6E335000C91F8 /* WebSocketPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketPlayer.swift; sourceTree = "<group>"; };
+		B5C0AF3221C6EF7A000C91F8 /* WebSocketSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketSessionDelegate.swift; sourceTree = "<group>"; };
 		B5DD641021C0265700DF5046 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
 		B5DD642821C3404A00DF5046 /* SiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteController.swift; sourceTree = "<group>"; };
 		B5DD643021C44F1E00DF5046 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -185,6 +189,8 @@
 				B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */,
 				B5DD643021C44F1E00DF5046 /* Player.swift */,
 				B5DD643A21C47ED400DF5046 /* PlayerColor.swift */,
+				B5C0AF3021C6E335000C91F8 /* WebSocketPlayer.swift */,
+				B5C0AF3221C6EF7A000C91F8 /* WebSocketSessionDelegate.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -440,8 +446,10 @@
 				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
 				B5DD643121C44F1E00DF5046 /* Player.swift in Sources */,
 				B5DD643B21C47ED400DF5046 /* PlayerColor.swift in Sources */,
+				B5C0AF3121C6E335000C91F8 /* WebSocketPlayer.swift in Sources */,
 				B5DD641121C0265700DF5046 /* Buzz.swift in Sources */,
 				3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */,
+				B5C0AF3321C6EF7A000C91F8 /* WebSocketSessionDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
