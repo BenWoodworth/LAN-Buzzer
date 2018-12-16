@@ -20,8 +20,6 @@
 		B5C0AF2921C60B6D000C91F8 /* BuzzerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */; };
 		B5DD641121C0265700DF5046 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641021C0265700DF5046 /* Buzz.swift */; };
 		B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642821C3404A00DF5046 /* SiteController.swift */; };
-		B5DD642B21C4240700DF5046 /* BuzzerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642A21C4240700DF5046 /* BuzzerController.swift */; };
-		B5DD642D21C42B2D00DF5046 /* ClientController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642C21C42B2D00DF5046 /* ClientController.swift */; };
 		B5DD643121C44F1E00DF5046 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643021C44F1E00DF5046 /* Player.swift */; };
 		B5DD643721C47C9A00DF5046 /* Buzzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643621C47C9A00DF5046 /* Buzzer.swift */; };
 		B5DD643B21C47ED400DF5046 /* PlayerColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643A21C47ED400DF5046 /* PlayerColor.swift */; };
@@ -67,8 +65,6 @@
 		B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzerSession.swift; sourceTree = "<group>"; };
 		B5DD641021C0265700DF5046 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
 		B5DD642821C3404A00DF5046 /* SiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteController.swift; sourceTree = "<group>"; };
-		B5DD642A21C4240700DF5046 /* BuzzerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzerController.swift; sourceTree = "<group>"; };
-		B5DD642C21C42B2D00DF5046 /* ClientController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientController.swift; sourceTree = "<group>"; };
 		B5DD643021C44F1E00DF5046 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B5DD643621C47C9A00DF5046 /* Buzzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzzer.swift; sourceTree = "<group>"; };
 		B5DD643A21C47ED400DF5046 /* PlayerColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerColor.swift; sourceTree = "<group>"; };
@@ -196,8 +192,6 @@
 		B5DD642021C323B800DF5046 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				B5DD642A21C4240700DF5046 /* BuzzerController.swift */,
-				B5DD642C21C42B2D00DF5046 /* ClientController.swift */,
 				3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */,
 				B5DD642821C3404A00DF5046 /* SiteController.swift */,
 			);
@@ -443,12 +437,10 @@
 				B5C0AF2921C60B6D000C91F8 /* BuzzerSession.swift in Sources */,
 				B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */,
 				B5DD643721C47C9A00DF5046 /* Buzzer.swift in Sources */,
-				B5DD642B21C4240700DF5046 /* BuzzerController.swift in Sources */,
 				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
 				B5DD643121C44F1E00DF5046 /* Player.swift in Sources */,
 				B5DD643B21C47ED400DF5046 /* PlayerColor.swift in Sources */,
 				B5DD641121C0265700DF5046 /* Buzz.swift in Sources */,
-				B5DD642D21C42B2D00DF5046 /* ClientController.swift in Sources */,
 				3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
