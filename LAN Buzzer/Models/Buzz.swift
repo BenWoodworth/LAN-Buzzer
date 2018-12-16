@@ -9,5 +9,5 @@ import Foundation
 
 struct Buzz {
     let player: Player
-    let offsetMs: Int
+    let offset: TimeInterval
 }

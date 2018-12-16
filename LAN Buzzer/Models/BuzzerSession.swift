@@ -13,10 +13,10 @@ private let PHI = 1.6180339887498948
 class BuzzerSession : PlayerDelegate, BuzzerDelegate {
     private let buzzer: Buzzer
     
-    private var delegates = MulticastDelegate<BuzzerSessionDelegate>()
+    let delegate = MulticastDelegate<BuzzerSessionDelegate>()
     
     private(set) var players: [Player] = []
-    private var nextPlayerNumber = 1
+    private var nextPlayerNumber = 0
     
     var buzzes: [Buzz] {
         return buzzer.buzzes
@@ -24,7 +24,7 @@ class BuzzerSession : PlayerDelegate, BuzzerDelegate {
 
     init(buzzer: Buzzer) {
         self.buzzer = buzzer
-        buzzer.delegate = self
+        buzzer.delegate += self
     }
     
     private func initPlayerInfo(player: Player) {
@@ -42,27 +42,29 @@ class BuzzerSession : PlayerDelegate, BuzzerDelegate {
         
         player.name = name
         player.color = PlayerColor(
-            hue: Double(number - 1) * PHI * 360.0,
+            hue: Double(number) * PHI * 360.0,
             saturation: 1.0,
             value: 1.0
         )
     }
     
     func onPlayerJoin(player: Player) {
-        delegates += player
+        delegate += player
+        player.delegate += self
         players.append(player)
         initPlayerInfo(player: player)
         
-        delegates.invokeDelegates {
+        delegate.invokeDelegates {
             $0.onBuzzerSessionChange(buzzerSession: self)
         }
     }
     
     func onPlayerLeave(player: Player) {
-        delegates -= player
+        delegate -= player
+        player.delegate -= self
         players = players.filter { $0 !== player }
         
-        delegates.invokeDelegates {
+        delegate.invokeDelegates {
             $0.onBuzzerSessionChange(buzzerSession: self)
         }
     }
@@ -72,7 +74,7 @@ class BuzzerSession : PlayerDelegate, BuzzerDelegate {
     }
     
     func onBuzzerChange(buzzer: Buzzer) {
-        delegates.invokeDelegates {
+        delegate.invokeDelegates {
             $0.onBuzzerSessionChange(buzzerSession: self)
         }
     }
