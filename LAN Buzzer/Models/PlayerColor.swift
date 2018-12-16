@@ -35,22 +35,23 @@ extension PlayerColor {
     
     init(hue: Double, saturation: Double, value: Double) {
         func mod(_ x: Double, _ m: Double) -> Double {
-            return x < 0
-                ? x.truncatingRemainder(dividingBy: m) + m
-                : x.truncatingRemainder(dividingBy: m)
+            return x < 0 ?
+                x.truncatingRemainder(dividingBy: m) + m :
+                x.truncatingRemainder(dividingBy: m)
         }
         
         func calc(hueOffset: Double) -> UInt8 {
             let hue360 = mod(hue + hueOffset, 360.0)
             let hue1 = mod(hue + hueOffset, 60.0) / 60.0
             
-            let intensity =
+            let hueInfluence =
                 hue360 <  60.0 ? hue1 :
                 hue360 < 120.0 ? 1.0 :
                 hue360 < 180.0 ? 1.0 - hue1 :
                 0.0
             
-            return UInt8(0xFF * saturation * intensity)
+            let result = (hueInfluence * saturation * value) + (1.0 - saturation)
+            return UInt8(0xFF * result)
         }
         
         red   = calc(hueOffset: -60.0)

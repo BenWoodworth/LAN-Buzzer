@@ -1,16 +1,20 @@
 PODS:
+  - MulticastDelegateSwift (2.1.1)
   - Swifter (1.4.5)
 
 DEPENDENCIES:
+  - MulticastDelegateSwift
   - Swifter (~> 1.4.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - MulticastDelegateSwift
     - Swifter
 
 SPEC CHECKSUMS:
+  MulticastDelegateSwift: 93eb077c24f50574b3f8a3f23bf71be6de6e3b41
   Swifter: eb2bc1d192a1c09169c7fefd01971565fa940521
 
-PODFILE CHECKSUM: f520d43b2af7f9c00ed523464e195ac168c3bf2c
+PODFILE CHECKSUM: 5bb5f7e61c1aa9017c16b70543da370bd9aec139
 
 COCOAPODS: 1.5.3

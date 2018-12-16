@@ -3,6 +3,7 @@ platform :ios, '9.0'
 target 'LAN Buzzer' do
   use_frameworks!
   pod 'Swifter', '~> 1.4.5'
+  pod 'MulticastDelegateSwift'
 
   # Pods for LAN Buzzer
 

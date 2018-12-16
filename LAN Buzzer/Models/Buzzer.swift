@@ -8,52 +8,22 @@
 import Foundation
 
 class Buzzer {
-    private var playerHandles = Dictionary<Int, PlayerHandle>()
-    private var nextHandleId = 0
+    let resetInterval: TimeInterval
+    var delegate: BuzzerDelegate!
     
-    func addPlayer(player: Player) {
-        let handleId = nextHandleId
-        nextHandleId += 1
-        
-        let playerHandle = PlayerHandle(
-            handleId: handleId,
-            buzzer: self,
-            player: player
-        )
-        
-        playerHandles[handleId] = playerHandle
-        player.delegate = playerHandle
-        
-        
+    private(set) var buzzes: [Buzz] = []
+    private var lastBuzz = Date(timeIntervalSince1970: TimeInterval(exactly: 0)!)
+    
+    init(resetInterval: TimeInterval) {
+        self.resetInterval = resetInterval
     }
     
-    private struct PlayerHandle : PlayerDelegate {
-        let handleId: Int
-        let buzzer: Buzzer
-        let player: Player
+    func buzz(player: Player, buzzTime: Date) {
         
-        func updateState() {
-            
-        }
-        
-        func remove() {
-            
-        }
-        
-        func onPlayerBuzz(time: Date) {
-            <#code#>
-        }
-        
-        func onPlayerUpdateName(name: String) {
-            <#code#>
-        }
-        
-        func onPlayerUpdateColor(color: String) {
-            <#code#>
-        }
-        
-        func onPlayerLeave() {
-            <#code#>
-        }
     }
+}
+
+protocol BuzzerDelegate {
+    
+    func onBuzzerChange(buzzer: Buzzer)
 }
