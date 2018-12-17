@@ -9,9 +9,12 @@ import Foundation
 import Swifter
 
 class SiteController {
+    let server: HttpServer
+    
+    let address: String = "TODO"
     
     init(buzzerSession: BuzzerSession, port: UInt16) throws {
-        let server = HttpServer()
+        server = HttpServer()
         
         server["/"] = scopes {
             html {
