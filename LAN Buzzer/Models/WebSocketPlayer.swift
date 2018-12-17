@@ -46,6 +46,7 @@ class WebSocketPlayer : Player, WebSocketSessionDelegate {
     
     func onWebSocketSessionText(session: WebSocketSession, data: String) {
         let time = Date()
+        print("Update Data:\n    \(data)")
         
         guard let playerUpdate = try? JsonPlayerUpdate.fromJson(data) else {
             print("Unable to decode JsonPlayerUpdate from JSON:\n\(data)")
