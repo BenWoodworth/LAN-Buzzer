@@ -18,8 +18,8 @@ class WebSocketPlayer : Player, WebSocketSessionDelegate {
     
     var delegate: PlayerDelegate?
     
-    var name = "UNSET"
-    var color = PlayerColor(rgb: 0x000000)
+    var name = ""
+    var color = PlayerColor(rgb: 0xFFFFFF)
     
     init(webSocketSession: WebSocketSession) {
         self.webSocketSession = webSocketSession
@@ -31,7 +31,9 @@ class WebSocketPlayer : Player, WebSocketSessionDelegate {
             player: self
         )
         
-        webSocketSession.writeText(clientState.toJson())
+        DispatchQueue.main.async {
+            self.webSocketSession.writeText(clientState.toJson())
+        }
     }
     
     func onWebSocketSessionConnect(session: WebSocketSession) {
