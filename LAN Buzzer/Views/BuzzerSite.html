@@ -183,7 +183,7 @@
             socket.onmessage = event => {
                 let data = event.data;
                 console.log(`Socket onmessage: ${data}`);
-                updateState(data);
+                updateState(JSON.parse(data));
             };
 
             socket.onclose = event => {
@@ -212,16 +212,16 @@
              * @param {ClientState} clientState
              */
             function updateState(clientState) {
-                textName.text = clientState.player.name;
+                textName.value = clientState.player.name;
                 buttonBuzz.style.backgroundColor = clientState.player.color.htmlColor;
 
-                textBuzzes.text = "Buzzes:";
+                textBuzzes.value = "Buzzes:";
                 clientState.buzzes.forEach(buzz => {
-                    textBuzzes.text += "\n";
+                    textBuzzes.value += "\n";
                     if (buzz.offset_ms !== 0) {
-                        textBuzzes.text += `+${buzz.offset_ms}ms: `;
+                        textBuzzes.value += `+${buzz.offset_ms}ms: `;
                     }
-                    textBuzzes.text += buzz.player.name;
+                    textBuzzes.value += buzz.player.name;
                 });
             }
 
