@@ -21,11 +21,11 @@
                                 Name
                             </span>
                         </div>
-                        <input type="text" class="form-control" placeholder="Name">
+                        <input id="text-name" type="text" class="form-control" placeholder="Name">
                         <!--<div class="input-group-append">-->
-                            <!--<button id="button-set-name" type="button" class="btn btn-primary">-->
-                                <!--Set Name-->
-                            <!--</button>-->
+                        <!--<button id="button-set-name" type="button" class="btn btn-primary">-->
+                        <!--Set Name-->
+                        <!--</button>-->
                         <!--</div>-->
                     </div>
                 </div>
@@ -60,7 +60,178 @@
                 crossorigin="anonymous"></script>
 
         <script>
+            "use strict";
 
+            /** @type undefined */
+            const _ = undefined;
+
+            let textName = document.getElementById("text-name");
+            let textBuzzes = document.getElementById("text-buzzes");
+            let buttonSetName = document.getElementById("button-set-name");
+            let buttonBuzz = document.getElementById("button-buzz");
+
+            class ClientState {
+                /**
+                 * @param {Player} player
+                 * @param {Array.<Player>} players
+                 * @param {Array,<Buzz>} buzzes
+                 */
+                constructor(player, players, buzzes) {
+                    /** @type Player */
+                    this.player = player;
+
+                    /** @type Array.<Player> */
+                    this.players = players;
+
+                    /** @type Array,<Buzz> */
+                    this.buzzes = buzzes;
+                }
+            }
+
+            class Player {
+                /**
+                 * @param {String} name
+                 * @param {PlayerColor} color
+                 */
+                constructor(name, color) {
+                    /** @type String */
+                    this.name = name;
+
+                    /** @type PlayerColor */
+                    this.color = color;
+                }
+            }
+
+            class PlayerColor {
+                /**
+                 * @param {Number} red
+                 * @param {Number} green
+                 * @param {Number} blue
+                 */
+                constructor(red, green, blue) {
+                    /** @type Number */
+                    this.red = red;
+
+                    /** @type Number */
+                    this.green = green;
+
+                    /** @type Number */
+                    this.blue = blue;
+                }
+
+                /**
+                 * @return {String}
+                 */
+                get htmlColor() {
+                    const hex = number => {
+                        Number.abs(number).toString(16).padStart(2, "0").substr(0, 2);
+                    };
+
+                    return `#${hex(this.red)}${hex(this.green)}${hex(this.blue)}`;
+                }
+            }
+
+            class Buzz {
+                /**
+                 * @param {Player} player
+                 * @param {Number} offset_ms
+                 */
+                constructor(player, offset_ms) {
+                    /** @type Player */
+                    self.player = player;
+
+                    /** @type Number */
+                    self.offset_ms = offset_ms;
+                }
+            }
+
+            class PlayerUpdate {
+                /**
+                 * @param {Number} time
+                 * @param {String} new_name
+                 * @param {PlayerColor} new_color
+                 * @param {Boolean} is_buzzing
+                 */
+                constructor(time = Date.now(), new_name, new_color, is_buzzing) {
+                    /** @type Number */
+                    this.time = time;
+
+                    /** @type String */
+                    this.new_name = new_name;
+
+                    /** @type PlayerColor */
+                    this.new_color = new_color;
+
+                    /** @type Boolean */
+                    this.is_buzzing = is_buzzing;
+                }
+
+                /**
+                 * @param {WebSocket} socket
+                 */
+                send(socket) {
+                    socket.send(JSON.stringify(this));
+                };
+            }
+
+            let socket = new WebSocket(`ws://${window.location.host}/socket`);
+
+            socket.onopen = event => {
+                console.log("Socket opened");
+            };
+
+            socket.onmessage = event => {
+                let data = event.data;
+                console.log(`Socket onmessage: ${data}`);
+                updateState(data);
+            };
+
+            socket.onclose = event => {
+                console.log("Socket closed");
+                alert("Buzzer disconnected!");
+            };
+
+            socket.onerror = event => {
+                console.log(`Socket error: ${event}`);
+                alert("Buzzer connection error!\n");
+            };
+
+            /**
+             * @param {String?} newName
+             * @param {PlayerColor?} newColor
+             */
+            function sendPlayerUpdate(newName, newColor) {
+                new PlayerUpdate(_, newName, newColor, _).send(socket);
+            }
+
+            function sendBuzz() {
+                new PlayerUpdate(_, _, _, true).send(socket);
+            }
+
+            /**
+             * @param {ClientState} clientState
+             */
+            function updateState(clientState) {
+                textName.text = clientState.player.name;
+                buttonBuzz.style.backgroundColor = clientState.player.color.htmlColor;
+
+                textBuzzes.text = "Buzzes:";
+                clientState.buzzes.forEach(buzz => {
+                    textBuzzes.text += "\n";
+                    if (buzz.offset_ms !== 0) {
+                        textBuzzes.text += `+${buzz.offset_ms}ms: `;
+                    }
+                    textBuzzes.text += buzz.player.name;
+                });
+            }
+
+            textName.onchange += event => {
+                sendPlayerUpdate(textName, _);
+            };
+
+            buttonBuzz.onmousedown = event => {
+                sendBuzz();
+            };
         </script>
     </body>
 </html>
