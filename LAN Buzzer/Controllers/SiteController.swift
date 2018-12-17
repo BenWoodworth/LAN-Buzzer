@@ -16,15 +16,7 @@ class SiteController {
     init(buzzerSession: BuzzerSession, port: UInt16) throws {
         server = HttpServer()
         
-        server["/"] = scopes {
-            html {
-                body {
-                    p {
-                        inner = "Hello, World!"
-                    }
-                }
-            }
-        }
+        server["/"] = shareFile(Bundle.main.path(forResource: "BuzzerSite", ofType: "html")!)
         
         server["/socket"] = websocket { session in
             let player = WebSocketPlayer(webSocketSession: session)

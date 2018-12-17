@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "21728A51C6F721E0B8D22C1012BC7D10"
+               BlueprintIdentifier = "6AFB6877A959FEF5D69361C6DB192E71"
                BuildableName = "Pods_LAN_Buzzer.framework"
                BlueprintName = "Pods-LAN Buzzer"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "21728A51C6F721E0B8D22C1012BC7D10"
+            BlueprintIdentifier = "6AFB6877A959FEF5D69361C6DB192E71"
             BuildableName = "Pods_LAN_Buzzer.framework"
             BlueprintName = "Pods-LAN Buzzer"
             ReferencedContainer = "container:Pods.xcodeproj">

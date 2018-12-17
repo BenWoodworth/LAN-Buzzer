@@ -20,6 +20,9 @@
 		B5C0AF2921C60B6D000C91F8 /* BuzzerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */; };
 		B5C0AF3121C6E335000C91F8 /* WebSocketPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0AF3021C6E335000C91F8 /* WebSocketPlayer.swift */; };
 		B5C0AF3321C6EF7A000C91F8 /* WebSocketSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C0AF3221C6EF7A000C91F8 /* WebSocketSessionDelegate.swift */; };
+		B5D87A3221C80DE900390B63 /* NetworkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D87A3121C80DE900390B63 /* NetworkInfo.swift */; };
+		B5D87A3421C8107900390B63 /* NetworkInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D87A3321C8107900390B63 /* NetworkInfoService.swift */; };
+		B5D87A3621C8132F00390B63 /* BuzzerSite.html in Resources */ = {isa = PBXBuildFile; fileRef = B5D87A3521C8132F00390B63 /* BuzzerSite.html */; };
 		B5DD641121C0265700DF5046 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641021C0265700DF5046 /* Buzz.swift */; };
 		B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642821C3404A00DF5046 /* SiteController.swift */; };
 		B5DD643121C44F1E00DF5046 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643021C44F1E00DF5046 /* Player.swift */; };
@@ -67,6 +70,9 @@
 		B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzerSession.swift; sourceTree = "<group>"; };
 		B5C0AF3021C6E335000C91F8 /* WebSocketPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketPlayer.swift; sourceTree = "<group>"; };
 		B5C0AF3221C6EF7A000C91F8 /* WebSocketSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebSocketSessionDelegate.swift; sourceTree = "<group>"; };
+		B5D87A3121C80DE900390B63 /* NetworkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfo.swift; sourceTree = "<group>"; };
+		B5D87A3321C8107900390B63 /* NetworkInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfoService.swift; sourceTree = "<group>"; };
+		B5D87A3521C8132F00390B63 /* BuzzerSite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BuzzerSite.html; sourceTree = "<group>"; };
 		B5DD641021C0265700DF5046 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
 		B5DD642821C3404A00DF5046 /* SiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteController.swift; sourceTree = "<group>"; };
 		B5DD643021C44F1E00DF5046 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -188,6 +194,8 @@
 				B5DD643621C47C9A00DF5046 /* Buzzer.swift */,
 				B5C0AF2821C60B6D000C91F8 /* BuzzerSession.swift */,
 				B5DD643021C44F1E00DF5046 /* Player.swift */,
+				B5D87A3121C80DE900390B63 /* NetworkInfo.swift */,
+				B5D87A3321C8107900390B63 /* NetworkInfoService.swift */,
 				B5DD643A21C47ED400DF5046 /* PlayerColor.swift */,
 				B5C0AF3021C6E335000C91F8 /* WebSocketPlayer.swift */,
 				B5C0AF3221C6EF7A000C91F8 /* WebSocketSessionDelegate.swift */,
@@ -209,6 +217,7 @@
 			children = (
 				3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */,
 				3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */,
+				B5D87A3521C8132F00390B63 /* BuzzerSite.html */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -321,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FBEE3BA218B2F61006A5EE0 /* LaunchScreen.storyboard in Resources */,
+				B5D87A3621C8132F00390B63 /* BuzzerSite.html in Resources */,
 				3FBEE3B7218B2F61006A5EE0 /* Assets.xcassets in Resources */,
 				3FBEE3B5218B2F5F006A5EE0 /* Main.storyboard in Resources */,
 			);
@@ -353,6 +363,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MulticastDelegateSwift/MulticastDelegateSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
 				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -360,6 +371,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MulticastDelegateSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,8 +455,10 @@
 				B5C0AF2921C60B6D000C91F8 /* BuzzerSession.swift in Sources */,
 				B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */,
 				B5DD643721C47C9A00DF5046 /* Buzzer.swift in Sources */,
+				B5D87A3221C80DE900390B63 /* NetworkInfo.swift in Sources */,
 				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
 				B5DD643121C44F1E00DF5046 /* Player.swift in Sources */,
+				B5D87A3421C8107900390B63 /* NetworkInfoService.swift in Sources */,
 				B5DD643B21C47ED400DF5046 /* PlayerColor.swift in Sources */,
 				B5C0AF3121C6E335000C91F8 /* WebSocketPlayer.swift in Sources */,
 				B5DD641121C0265700DF5046 /* Buzz.swift in Sources */,

@@ -1,20 +1,24 @@
 PODS:
   - MulticastDelegateSwift (2.1.1)
+  - ReachabilitySwift (4.3.0)
   - Swifter (1.4.5)
 
 DEPENDENCIES:
-  - MulticastDelegateSwift
+  - MulticastDelegateSwift (~> 2.1.1)
+  - ReachabilitySwift (~> 4.3.0)
   - Swifter (~> 1.4.5)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - MulticastDelegateSwift
+    - ReachabilitySwift
     - Swifter
 
 SPEC CHECKSUMS:
   MulticastDelegateSwift: 93eb077c24f50574b3f8a3f23bf71be6de6e3b41
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
   Swifter: eb2bc1d192a1c09169c7fefd01971565fa940521
 
-PODFILE CHECKSUM: 5bb5f7e61c1aa9017c16b70543da370bd9aec139
+PODFILE CHECKSUM: ab58d74e9abcd7a1e40c82fec7251a1537d06c0d
 
 COCOAPODS: 1.5.3
