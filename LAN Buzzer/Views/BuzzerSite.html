@@ -205,16 +205,16 @@
                 new PlayerUpdate(_, textName.value, _, _)
             }
 
-            textName.onchange += onNameChange;
-            textName.onkeypress += onNameChange;
-            textName.onpaste += onNameChange;
-            //buttonSetName.onclick += onNameChange;
+            textName.onchange = onNameChange;
+            textName.onkeypress = onNameChange;
+            textName.onpaste = onNameChange;
+            //buttonSetName.onclick = onNameChange;
 
             function onBuzz() {
                 new PlayerUpdate(_, _, _, true).send(socket);
             }
 
-            buttonBuzz.onmousedown += onBuzz;
+            buttonBuzz.onmousedown = onBuzz;
         </script>
     </body>
 </html>
