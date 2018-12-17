@@ -12,7 +12,7 @@ class Buzzer {
     var resetInterval: TimeInterval
     var delegate = MulticastDelegate<BuzzerDelegate>()
     
-    private var playerBuzzTimes = NSMutableDictionary()
+    private var playerBuzzTimes = Dictionary<PlayerKey, Date>()
     private var lastBuzz: Date?
     
     private(set) var buzzes: [Buzz] = []
@@ -23,13 +23,14 @@ class Buzzer {
     
     func buzz(player: Player, buzzTime: Date) {
         if lastBuzz != nil && buzzTime.timeIntervalSince(lastBuzz!) < resetInterval {
-            playerBuzzTimes.removeAllObjects()
+            playerBuzzTimes.removeAll()
             lastBuzz = nil
         }
         
-        let previousBuzz = playerBuzzTimes[player] as! Date?
+        let playerKey = PlayerKey(player)
+        let previousBuzz = playerBuzzTimes[playerKey]
         if previousBuzz == nil || previousBuzz! > buzzTime {
-            playerBuzzTimes[player] = buzzTime
+            playerBuzzTimes[playerKey] = buzzTime
             
             if lastBuzz == nil || buzzTime > lastBuzz! {
                 lastBuzz = buzzTime
@@ -49,17 +50,35 @@ class Buzzer {
         }
         
         let firstBuzz = playerBuzzTimes
-            .map { _, value in (value as! Date) }
-            .min()!
+            .min { $0.value < $1.value }!
+            .value
         
         return playerBuzzTimes
-            .map { key, value in
+            .map { entry in
                 Buzz(
-                    player: key as! Player,
-                    offset: (value as! Date).timeIntervalSince(firstBuzz)
+                    player: entry.key.player,
+                    offset: entry.value.timeIntervalSince(firstBuzz)
                 )
             }
             .sorted { $0.offset < $1.offset }
+    }
+    
+    private struct PlayerKey : Hashable {
+        let player: Player
+        private let id: ObjectIdentifier
+        
+        init(_ player: Player) {
+            self.player = player
+            id = ObjectIdentifier(player)
+        }
+    
+        public var hashValue: Int {
+            return id.hashValue
+        }
+        
+        static func == (lhs: Buzzer.PlayerKey, rhs: Buzzer.PlayerKey) -> Bool {
+            return lhs.player === rhs.player
+        }
     }
 }
 
