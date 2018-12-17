@@ -202,11 +202,11 @@
             }
 
             function onNameChange() {
-                new PlayerUpdate(_, newName, _, _).send(socket)
+                new PlayerUpdate(_, textName.value, _, _).send(socket)
             }
 
             textName.onchange = onNameChange;
-            textName.onkeypress = onNameChange;
+            textName.onkeyup = onNameChange;
             textName.onpaste = onNameChange;
             //buttonSetName.onclick = onNameChange;
 
