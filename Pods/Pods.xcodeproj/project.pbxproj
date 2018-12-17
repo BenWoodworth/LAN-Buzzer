@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -78,7 +78,7 @@
 
 /* Begin PBXFileReference section */
 		09B10540597C8A5B653D1F776F3D778C /* MulticastDelegateSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MulticastDelegateSwift-umbrella.h"; sourceTree = "<group>"; };
-		0CCB0FA22D5D961682E487A862B85580 /* MulticastDelegateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MulticastDelegateSwift.framework; path = MulticastDelegateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCB0FA22D5D961682E487A862B85580 /* MulticastDelegateSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MulticastDelegateSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7B1128504CBCE51FED6BB86BC86B0F /* Scopes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scopes.swift; path = Sources/Scopes.swift; sourceTree = "<group>"; };
 		1092B807ADA96B431A4583D54F839AF5 /* Pods-LAN BuzzerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LAN BuzzerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		10C47B9E89352586F064F2ECC8CD6A75 /* Pods-LAN BuzzerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LAN BuzzerTests-umbrella.h"; sourceTree = "<group>"; };
@@ -107,8 +107,8 @@
 		8F2532D027697B6C728CCA9624C9C51E /* MulticastDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MulticastDelegate.swift; path = Sources/MulticastDelegate.swift; sourceTree = "<group>"; };
 		8FFC558ADC1D4001BCA166B50BBF32D1 /* Pods-LAN Buzzer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN Buzzer-resources.sh"; sourceTree = "<group>"; };
 		909E44C89C0010D95A489A21FE6F6E5A /* MulticastDelegateSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MulticastDelegateSwift.modulemap; sourceTree = "<group>"; };
-		911EAA0FA59A2903783DF3A9B53DB3D9 /* Pods_LAN_BuzzerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAN_BuzzerUITests.framework; path = "Pods-LAN BuzzerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		911EAA0FA59A2903783DF3A9B53DB3D9 /* Pods_LAN_BuzzerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAN_BuzzerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		960BD61ECBD844EF4A11739C940620E1 /* Pods-LAN BuzzerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAN BuzzerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9821836C254633F7AACF174FBBE4F2D6 /* Pods-LAN BuzzerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAN BuzzerTests.modulemap"; sourceTree = "<group>"; };
 		9AB05D539F482CBCF77E88F1528B5BCB /* Pods-LAN Buzzer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAN Buzzer-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 		BDB106108DB7FD1CB291EA10815FBFF9 /* Files.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Files.swift; path = Sources/Files.swift; sourceTree = "<group>"; };
 		BF0FB8382C2CA18ED0B22C09D026AC71 /* Swifter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Swifter.xcconfig; sourceTree = "<group>"; };
 		BF5EF17AB322508594E3E428D5FF1897 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2981D6010A1B9A46B340EC3700CC235 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Swifter.framework; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2981D6010A1B9A46B340EC3700CC235 /* Swifter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Swifter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75F73FD31B0F49C6F0D537123CB0359 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
 		D1288E9215B28B05AE8DAF52FAA16AE0 /* Pods-LAN BuzzerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN BuzzerTests-frameworks.sh"; sourceTree = "<group>"; };
 		D2B0555EE629DE005AA3D354C891A1F5 /* Pods-LAN BuzzerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LAN BuzzerUITests-resources.sh"; sourceTree = "<group>"; };
@@ -143,8 +143,8 @@
 		EE5875F4E0E625A900FBFC56F7327887 /* Pods-LAN BuzzerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LAN BuzzerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F4D3AA5111EE3CF00C4E84DCCECA48F7 /* Swifter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Swifter-umbrella.h"; sourceTree = "<group>"; };
 		F4D70DD49E5EE2BA494EBF547B11F22C /* Socket+Server.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Socket+Server.swift"; path = "Sources/Socket+Server.swift"; sourceTree = "<group>"; };
-		F5617BA6F6B5E7C219DCECEE7E36250E /* Pods_LAN_Buzzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAN_Buzzer.framework; path = "Pods-LAN Buzzer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA5615A7064FCFD0EA655BAC0AA4ED5E /* Pods_LAN_BuzzerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LAN_BuzzerTests.framework; path = "Pods-LAN BuzzerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5617BA6F6B5E7C219DCECEE7E36250E /* Pods_LAN_Buzzer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAN_Buzzer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5615A7064FCFD0EA655BAC0AA4ED5E /* Pods_LAN_BuzzerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LAN_BuzzerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE3F943D4DFD6BA9E18FF667C45DB0CE /* Pods-LAN Buzzer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LAN Buzzer.modulemap"; sourceTree = "<group>"; };
 		FE92F86E20358654DBB3A36D177BAB1C /* MimeTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MimeTypes.swift; path = Sources/MimeTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -218,7 +218,6 @@
 				6B157482D388A12A0807DF9D2B1DA885 /* WebSockets.swift */,
 				6EDFA1857E416523DCD15AB0505CC29F /* Support Files */,
 			);
-			name = Swifter;
 			path = Swifter;
 			sourceTree = "<group>";
 		};
@@ -254,7 +253,6 @@
 				8F2532D027697B6C728CCA9624C9C51E /* MulticastDelegate.swift */,
 				E0EF454EC2BD38881C1651F68F1975B8 /* Support Files */,
 			);
-			name = MulticastDelegateSwift;
 			path = MulticastDelegateSwift;
 			sourceTree = "<group>";
 		};
@@ -520,6 +518,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					53CFF4430A13A44A9D057B82118B11BA = {
+						LastSwiftMigration = 1010;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -689,11 +692,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -727,11 +726,7 @@
 				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
 				PRODUCT_MODULE_NAME = Swifter;
 				PRODUCT_NAME = Swifter;
@@ -801,8 +796,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -825,11 +819,7 @@
 				INFOPLIST_FILE = "Target Support Files/Swifter/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Swifter/Swifter.modulemap";
 				PRODUCT_MODULE_NAME = Swifter;
 				PRODUCT_NAME = Swifter;
@@ -860,11 +850,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -963,11 +949,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LAN Buzzer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1001,11 +983,7 @@
 				INFOPLIST_FILE = "Target Support Files/MulticastDelegateSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MulticastDelegateSwift/MulticastDelegateSwift.modulemap";
 				PRODUCT_MODULE_NAME = MulticastDelegateSwift;
 				PRODUCT_NAME = MulticastDelegateSwift;
@@ -1037,11 +1015,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerUITests/Pods-LAN BuzzerUITests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1075,11 +1049,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LAN BuzzerTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LAN BuzzerTests/Pods-LAN BuzzerTests.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1112,11 +1082,7 @@
 				INFOPLIST_FILE = "Target Support Files/MulticastDelegateSwift/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/MulticastDelegateSwift/MulticastDelegateSwift.modulemap";
 				PRODUCT_MODULE_NAME = MulticastDelegateSwift;
 				PRODUCT_NAME = MulticastDelegateSwift;
@@ -1147,11 +1113,7 @@
 				INFOPLIST_FILE = "Target Support Files/Pods-LAN Buzzer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.modulemap";
 				OTHER_LDFLAGS = "";

@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import LAN_Buzzer
+//@testable import LAN_Buzzer
 
 class LAN_BuzzerTests: XCTestCase {
 

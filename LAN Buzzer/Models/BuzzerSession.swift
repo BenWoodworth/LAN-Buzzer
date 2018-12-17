@@ -50,22 +50,28 @@ class BuzzerSession : PlayerDelegate, BuzzerDelegate {
     
     func onPlayerJoin(player: Player) {
         delegate += player
-        player.delegate += self
+        player.delegate = self
         players.append(player)
         initPlayerInfo(player: player)
         
         delegate.invokeDelegates {
-            $0.onBuzzerSessionChange(buzzerSession: self)
+            $0.onBuzzerSessionUpdate(buzzerSession: self)
         }
     }
     
     func onPlayerLeave(player: Player) {
         delegate -= player
-        player.delegate -= self
+        player.delegate = nil
         players = players.filter { $0 !== player }
         
         delegate.invokeDelegates {
-            $0.onBuzzerSessionChange(buzzerSession: self)
+            $0.onBuzzerSessionUpdate(buzzerSession: self)
+        }
+    }
+    
+    func onPlayerUpdate(player: Player) {
+        delegate.invokeDelegates {
+            $0.onBuzzerSessionUpdate(buzzerSession: self)
         }
     }
     
@@ -75,12 +81,12 @@ class BuzzerSession : PlayerDelegate, BuzzerDelegate {
     
     func onBuzzerChange(buzzer: Buzzer) {
         delegate.invokeDelegates {
-            $0.onBuzzerSessionChange(buzzerSession: self)
+            $0.onBuzzerSessionUpdate(buzzerSession: self)
         }
     }
 }
 
 protocol BuzzerSessionDelegate {
     
-    func onBuzzerSessionChange(buzzerSession: BuzzerSession)
+    func onBuzzerSessionUpdate(buzzerSession: BuzzerSession)
 }

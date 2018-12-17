@@ -6,21 +6,22 @@
 //
 
 import Foundation
+import MulticastDelegateSwift
 
-protocol Player : AnyObject {
-    
+protocol Player : AnyObject, BuzzerSessionDelegate {
     var delegate: PlayerDelegate? { get set }
     
-    func updateState(state: PlayerState)
+    var name: String { get set }
+    var color: PlayerColor { get set }
 }
 
 protocol PlayerDelegate {
     
-    func onPlayerBuzz(time: Date)
+    func onPlayerJoin(player: Player)
     
-    func onPlayerUpdateName(name: String)
+    func onPlayerLeave(player: Player)
     
-    func onPlayerUpdateColor(color: String)
+    func onPlayerUpdate(player: Player)
     
-    func onPlayerLeave()
+    func onPlayerBuzz(player: Player, buzzTime: Date)
 }
