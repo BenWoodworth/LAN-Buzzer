@@ -9,11 +9,16 @@ import Foundation
 import Swifter
 
 class SiteController {
+    let buzzerSession: BuzzerSession
     let server: HttpServer
     
-    let address: String = "TODO"
+    let buzzerAddress: String
     
     init(buzzerSession: BuzzerSession, port: UInt16) throws {
+        self.buzzerSession = buzzerSession
+        
+        buzzerAddress = "http://TODO:\(port)/"
+        
         server = HttpServer()
         
         server["/"] = shareFile(Bundle.main.path(forResource: "BuzzerSite", ofType: "html")!)

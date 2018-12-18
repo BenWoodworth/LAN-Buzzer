@@ -16,6 +16,6 @@ target 'LAN Buzzer' do
   target 'LAN BuzzerUITests' do
     inherit! :search_paths
     # Pods for testing
-  end
+  end/Users/ben/Documents/LAN-Buzzer/LAN Buzzer/Views/Base.lproj/Main.storyboard
 
 end

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */; };
-		3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */; };
+		3FBEE3B2218B2F5F006A5EE0 /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B1218B2F5F006A5EE0 /* SetupViewController.swift */; };
 		3FBEE3B5218B2F5F006A5EE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B3218B2F5F006A5EE0 /* Main.storyboard */; };
 		3FBEE3B7218B2F61006A5EE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */; };
 		3FBEE3BA218B2F61006A5EE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEE3B8218B2F61006A5EE0 /* LaunchScreen.storyboard */; };
@@ -23,6 +23,7 @@
 		B5D87A3221C80DE900390B63 /* NetworkInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D87A3121C80DE900390B63 /* NetworkInfo.swift */; };
 		B5D87A3421C8107900390B63 /* NetworkInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D87A3321C8107900390B63 /* NetworkInfoService.swift */; };
 		B5D87A3621C8132F00390B63 /* BuzzerSite.html in Resources */ = {isa = PBXBuildFile; fileRef = B5D87A3521C8132F00390B63 /* BuzzerSite.html */; };
+		B5DBAF7221C8830B000356FF /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DBAF7121C8830B000356FF /* SessionViewController.swift */; };
 		B5DD641121C0265700DF5046 /* Buzz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD641021C0265700DF5046 /* Buzz.swift */; };
 		B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD642821C3404A00DF5046 /* SiteController.swift */; };
 		B5DD643121C44F1E00DF5046 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DD643021C44F1E00DF5046 /* Player.swift */; };
@@ -52,7 +53,7 @@
 		2397466958BCCAD635F51465 /* Pods-LAN Buzzer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LAN Buzzer.release.xcconfig"; path = "Pods/Target Support Files/Pods-LAN Buzzer/Pods-LAN Buzzer.release.xcconfig"; sourceTree = "<group>"; };
 		3FBEE3AC218B2F5F006A5EE0 /* LAN Buzzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LAN Buzzer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBEE3AF218B2F5F006A5EE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FBEE3B1218B2F5F006A5EE0 /* SetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
 		3FBEE3B4218B2F5F006A5EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FBEE3B6218B2F61006A5EE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FBEE3B9218B2F61006A5EE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 		B5D87A3121C80DE900390B63 /* NetworkInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfo.swift; sourceTree = "<group>"; };
 		B5D87A3321C8107900390B63 /* NetworkInfoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInfoService.swift; sourceTree = "<group>"; };
 		B5D87A3521C8132F00390B63 /* BuzzerSite.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = BuzzerSite.html; sourceTree = "<group>"; };
+		B5DBAF7121C8830B000356FF /* SessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
 		B5DD641021C0265700DF5046 /* Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buzz.swift; sourceTree = "<group>"; };
 		B5DD642821C3404A00DF5046 /* SiteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteController.swift; sourceTree = "<group>"; };
 		B5DD643021C44F1E00DF5046 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
@@ -206,8 +208,9 @@
 		B5DD642021C323B800DF5046 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				3FBEE3B1218B2F5F006A5EE0 /* ViewController.swift */,
+				3FBEE3B1218B2F5F006A5EE0 /* SetupViewController.swift */,
 				B5DD642821C3404A00DF5046 /* SiteController.swift */,
+				B5DBAF7121C8830B000356FF /* SessionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -456,12 +459,13 @@
 				B5DD642921C3404A00DF5046 /* SiteController.swift in Sources */,
 				B5DD643721C47C9A00DF5046 /* Buzzer.swift in Sources */,
 				B5D87A3221C80DE900390B63 /* NetworkInfo.swift in Sources */,
-				3FBEE3B2218B2F5F006A5EE0 /* ViewController.swift in Sources */,
+				3FBEE3B2218B2F5F006A5EE0 /* SetupViewController.swift in Sources */,
 				B5DD643121C44F1E00DF5046 /* Player.swift in Sources */,
 				B5D87A3421C8107900390B63 /* NetworkInfoService.swift in Sources */,
 				B5DD643B21C47ED400DF5046 /* PlayerColor.swift in Sources */,
 				B5C0AF3121C6E335000C91F8 /* WebSocketPlayer.swift in Sources */,
 				B5DD641121C0265700DF5046 /* Buzz.swift in Sources */,
+				B5DBAF7221C8830B000356FF /* SessionViewController.swift in Sources */,
 				3FBEE3B0218B2F5F006A5EE0 /* AppDelegate.swift in Sources */,
 				B5C0AF3321C6EF7A000C91F8 /* WebSocketSessionDelegate.swift in Sources */,
 			);

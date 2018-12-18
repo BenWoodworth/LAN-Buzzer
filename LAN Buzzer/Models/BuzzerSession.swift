@@ -11,7 +11,7 @@ import MulticastDelegateSwift
 private let PHI = 1.6180339887498948
 
 class BuzzerSession : PlayerDelegate, BuzzerDelegate {
-    private let buzzer: Buzzer
+    let buzzer: Buzzer
     
     let delegate = MulticastDelegate<BuzzerSessionDelegate>()
     

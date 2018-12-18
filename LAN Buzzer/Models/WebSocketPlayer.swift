@@ -37,11 +37,15 @@ class WebSocketPlayer : Player, WebSocketSessionDelegate {
     }
     
     func onWebSocketSessionConnect(session: WebSocketSession) {
-        delegate?.onPlayerJoin(player: self)
+        DispatchQueue.main.async {
+            self.delegate?.onPlayerJoin(player: self)
+        }
     }
     
     func onWebSocketSessionDisconnect(session: WebSocketSession) {
-        delegate?.onPlayerLeave(player: self)
+        DispatchQueue.main.async {
+            self.delegate?.onPlayerLeave(player: self)
+        }
     }
     
     func onWebSocketSessionText(session: WebSocketSession, data: String) {
@@ -65,13 +69,15 @@ class WebSocketPlayer : Player, WebSocketSessionDelegate {
             updated = true
         }
         
-        if updated {
-            delegate?.onPlayerUpdate(player: self)
-        }
-        
-        if playerUpdate.is_buzzing ?? false {
-            let deltaTime = time.addingTimeInterval(TimeInterval(exactly: timeDeltaMs / 1000.0)!)
-            delegate?.onPlayerBuzz(player: self, buzzTime: deltaTime)
+        DispatchQueue.main.async {
+            if updated {
+                self.delegate?.onPlayerUpdate(player: self)
+            }
+            
+            if playerUpdate.is_buzzing ?? false {
+                let deltaTime = time.addingTimeInterval(TimeInterval(exactly: self.timeDeltaMs / 1000.0)!)
+                self.delegate?.onPlayerBuzz(player: self, buzzTime: deltaTime)
+            }
         }
     }
     
