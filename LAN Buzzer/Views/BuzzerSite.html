@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,8 +11,8 @@
 
     </head>
 
-    <body>
-        <div class="container">
+    <body class="h-100">
+        <div class="container-fluid h-100 d-flex flex-column">
             <div class="row">
                 <div class="col">
                     <div class="input-group">
@@ -30,17 +30,17 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row flex-fill flex-grow-5 d-flex">
                 <div class="col">
-                    <div class="input-group">
-                        <textarea id="text-buzzes" class="form-control" readonly="true" style="background-color: white">
+                    <div class="input-group h-100">
+                        <textarea id="text-buzzes" class="form-control h-100" readonly="true" style="background-color: white">
                         </textarea>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row flex-fill">
                 <div class="col">
-                    <button id="button-buzz" type="button" class="btn btn-primary btn-block">
+                    <button id="button-buzz" type="button" class="btn btn-primary btn-block h-100">
                         Buzz!
                     </button>
                 </div>
@@ -176,7 +176,7 @@
 
             socket.onclose = event => {
                 console.log("Socket closed");
-                alert("Buzzer disconnected!");
+                alert("Buzzer disconnected! Please try reloading.");
             };
 
             socket.onerror = event => {
