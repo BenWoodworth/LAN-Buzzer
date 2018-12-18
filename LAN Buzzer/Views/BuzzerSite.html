@@ -33,7 +33,8 @@
             <div class="row flex-fill flex-grow-5 d-flex">
                 <div class="col">
                     <div class="input-group h-100">
-                        <textarea id="text-buzzes" class="form-control h-100" readonly="true" style="background-color: white">
+                        <textarea id="text-buzzes" class="form-control h-100" readonly="true"
+                                  style="background-color: white">
                         </textarea>
                     </div>
                 </div>
@@ -202,7 +203,7 @@
             }
 
             function onNameChange() {
-                new PlayerUpdate(_, textName.value, _, _).send(socket)
+                new PlayerUpdate(_, textName.value, _, _).send(socket);
             }
 
             textName.onchange = onNameChange;
@@ -212,6 +213,8 @@
 
             function onBuzz() {
                 new PlayerUpdate(_, _, _, true).send(socket);
+
+                window.navigator.vibrate(300);
             }
 
             buttonBuzz.onmousedown = onBuzz;
