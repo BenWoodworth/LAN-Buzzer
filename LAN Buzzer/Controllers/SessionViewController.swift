@@ -23,7 +23,7 @@ class SessionViewController: UITableViewController, BuzzerDelegate, BuzzerSessio
     @IBOutlet weak var textNetwork: UITextField!
     @IBOutlet weak var textHostUrl: UITextField!
     @IBOutlet weak var textResetInterval: UITextField!
-    @IBOutlet weak var textPlayersConnected: UITextField!
+    //@IBOutlet weak var textPlayersConnected: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,7 @@ class SessionViewController: UITableViewController, BuzzerDelegate, BuzzerSessio
         updateTextNetwork()
         updateTextHostUrl()
         updateTextResetInterval()
-        updateTextPlayersConnected()
+//        updateTextPlayersConnected()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -80,10 +80,10 @@ class SessionViewController: UITableViewController, BuzzerDelegate, BuzzerSessio
         textResetInterval.text = String(Double(buzzer.resetInterval))
     }
     
-    private func updateTextPlayersConnected() {
-        print(buzzerSession.players.count)
-        textPlayersConnected.text = String(buzzerSession.players.count)
-    }
+//    private func updateTextPlayersConnected() {
+//        print(buzzerSession.players.count)
+//        textPlayersConnected.text = String(buzzerSession.players.count)
+//    }
     
     func onBuzzerChange(buzzer: Buzzer) {
         updateTextResetInterval()

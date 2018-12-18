@@ -270,36 +270,6 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nzw-da-EoU">
-                                        <rect key="frame" x="0.0" y="188" width="414" height="44"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nzw-da-EoU" id="pzg-Q7-TsY">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.666666666666664"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Players Connected" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLd-3y-5RY">
-                                                    <rect key="frame" x="20" y="10.666666666666666" width="144" height="22.333333333333336"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yux-FH-ESQ">
-                                                    <rect key="frame" x="197" y="7" width="201" height="30"/>
-                                                    <nil key="textColor"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
-                                                </textField>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="RLd-3y-5RY" firstAttribute="bottom" secondItem="pzg-Q7-TsY" secondAttribute="bottomMargin" id="27x-Gt-5Fi"/>
-                                                <constraint firstItem="yux-FH-ESQ" firstAttribute="leading" secondItem="pzg-Q7-TsY" secondAttribute="leading" constant="197" id="EeV-87-jM5"/>
-                                                <constraint firstItem="RLd-3y-5RY" firstAttribute="centerY" secondItem="yux-FH-ESQ" secondAttribute="centerY" id="KZi-uj-PtJ"/>
-                                                <constraint firstItem="RLd-3y-5RY" firstAttribute="leading" secondItem="pzg-Q7-TsY" secondAttribute="leadingMargin" id="e1y-fg-a6T"/>
-                                                <constraint firstAttribute="trailing" secondItem="yux-FH-ESQ" secondAttribute="trailing" constant="16" id="tdK-jC-lyi"/>
-                                                <constraint firstItem="yux-FH-ESQ" firstAttribute="centerY" secondItem="pzg-Q7-TsY" secondAttribute="centerY" id="w0Y-M7-ohn"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -310,7 +280,6 @@
                     <connections>
                         <outlet property="textHostUrl" destination="y0r-bH-fqK" id="Ar6-ZI-Rwy"/>
                         <outlet property="textNetwork" destination="6Px-ab-Qta" id="67Z-OP-WZ0"/>
-                        <outlet property="textPlayersConnected" destination="yux-FH-ESQ" id="o4I-KV-1sg"/>
                         <outlet property="textResetInterval" destination="igl-Ck-Ojs" id="bbb-G0-dB1"/>
                     </connections>
                 </tableViewController>
